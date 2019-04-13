@@ -18,7 +18,7 @@
  */
 
 
-public class Test4 {
+public class Test_4 {
     public static void main(String[] args) {
         IPowerA powerA = new PowerAImpl();
         work(powerA);

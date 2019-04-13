@@ -15,7 +15,7 @@ import java.awt.event.AWTEventListener;
  *
  */
 
-public class Test3 {
+public class Test_3 {
     public static void main(String[] args) {
         Action userAction = new UserAction();
         ActionProxy proxy = new ActionProxy(userAction);

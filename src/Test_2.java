@@ -6,7 +6,7 @@
  * @create 2019-04-12 21:25
  */
 
-public class Test2 {
+public class Test_2 {
     public static void main(String[] args) {
         // 使用被使用者之间，耦合，产生了依赖，当被使用者被改变时，会影响使用者
         // 使用工厂模式来降低两者之间的依赖耦合
