@@ -12,7 +12,15 @@
  *             方法内部类对象不能使用该内部类所在方法的非final局部变量
  * 3、静态内部类
  * 4、匿名内部类
+ *      （1）不能有构造方法，只能有一个实例。一次性
+ *      （2）不能定义任何静态成员、静态方法。
+ *      （3）不能用修饰符
+ *      （4）一定是在new后面，勇气隐含实现一个接口或是继承一个类
+ *      （5）匿名内部类是局部的，所以局部内部类的所有限制都对其生效
+ * 内部类可以变相的实现多继承
  *
+ * 依赖外部类的对象的：成员内部类、方法内部类、匿名内部类
+ * 静态内部类不依赖外部类的对象，所以，在项目中，优先考虑选择静态内部类（不会产生内存泄漏）
  *
  *
  */
@@ -31,6 +39,14 @@ public class Test_5 {
         inner3.print();
 
         outer.print1();
+        outer.print2();
+
+        outer.print3(new Eat() {
+            @Override
+            public void eat() {
+                System.out.println("参数式匿名内部类");
+            }
+        });
     }
 }
 
@@ -61,6 +77,7 @@ class Outer {
         }
         Inner2 inner2 = new Inner2();
         inner2.print();
+
     }
 
     //-------静态内部类----------
@@ -72,6 +89,7 @@ class Outer {
     }
 
     //-------匿名内部类-----------
+    // 继承式
     public void print1() {
         Cat cat = new Cat() {
             @Override
@@ -82,12 +100,32 @@ class Outer {
         cat.eat();
     }
 
+    // 接口式
+    public void print2() {
+        Eat eat = new Eat() {
+            @Override
+            public void eat() {
+                System.out.println("接口式匿名内部类");
+            }
+        };
+        eat.eat();
+    }
 
+    // 参数式
+    public void print3(Eat eat) {
+        eat.eat();
+    }
+
+}
+
+interface Eat {
+    public void eat();
 }
 
 abstract class Cat {
     public abstract void eat();
 }
+
 
 
 
