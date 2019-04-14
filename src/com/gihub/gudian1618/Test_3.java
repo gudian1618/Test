@@ -1,12 +1,10 @@
-/**
+package com.gihub.gudian1618; /**
  * @param
  * @author gudian1618
  * @version 1.0
  * @description
  * @create 2019-04-13 12:59
  */
-
-import java.awt.event.AWTEventListener;
 
 /**
  * 静态代理模式（proxy）：为了其他对象提供一种代理以控制这个对象的访问

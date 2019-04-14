@@ -1,3 +1,5 @@
+package com.gihub.gudian1618;
+
 /**
  * 链表
  *
