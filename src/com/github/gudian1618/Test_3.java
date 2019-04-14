@@ -1,4 +1,4 @@
-package com.gihub.gudian1618; /**
+package com.github.gudian1618; /**
  * @param
  * @author gudian1618
  * @version 1.0
