@@ -5,49 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="591c01ae-f330-45f1-ab30-e88f9ee1ecfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.github.gudian1618/src/Test_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zyd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/dictionaries/zyd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/smartfox_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ActionProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/AnimalFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/IPowerA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/IPowerB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/NodeManger$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/NodeManger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer$1Inner2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer$Inner3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/PowerAImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/PowerBImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ProductFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/dictionaries/zyd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/smartfox_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/ActionProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/AnimalFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Eat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/IPowerA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/IPowerB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/META-INF/Test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/NodeManger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/NodeManger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Outer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Outer$1Inner2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Outer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Outer$Inner3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/PowerAImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/PowerBImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/ProductFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Test_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Test_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Test_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Test_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Test_5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Test_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/Test_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/out/production/Test/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.github.gudian1618/src/Test_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ActionProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ActionProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Adapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/AnimalFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/AnimalFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/IPowerA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/IPowerA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/IPowerB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/IPowerB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/NodeManger$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/NodeManger$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/NodeManger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/NodeManger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer$1Inner2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Outer$1Inner2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Outer$Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer$Inner3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Outer$Inner3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Outer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/PowerAImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/PowerAImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/PowerBImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/PowerBImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ProductFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/Test1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/Test2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/Test3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/Test4.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/Test5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/UserAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/src/Test_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/src/Test_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/src/Test_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/src/Test_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.github.gudian1618/src/Test_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/UserAction.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,58 +89,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="262">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_4.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_6.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="308">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -149,6 +164,8 @@
         <option value="$PROJECT_DIR$/src/Test_3.java" />
         <option value="$PROJECT_DIR$/src/Test_5.java" />
         <option value="$PROJECT_DIR$/src/Test_6.java" />
+        <option value="$PROJECT_DIR$/com/github/gudian1618/src/Wqe.java" />
+        <option value="$PROJECT_DIR$/src/com/gihub/gudian1618/Test_6.java" />
       </list>
     </option>
   </component>
@@ -162,7 +179,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -173,12 +191,33 @@
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gudian1618" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Test" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,6 +231,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/com/github/gudian1618" />
+      <recent name="$PROJECT_DIR$/com/github" />
       <recent name="$PROJECT_DIR$/com.github.gudian1618" />
     </key>
   </component>
@@ -237,7 +279,7 @@
       </method>
     </configuration>
     <configuration name="Test_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test_6" />
+      <option name="MAIN_CLASS_NAME" value="com.gihub.gudian1618.Test_6" />
       <module name="Test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -279,7 +321,7 @@
       <workItem from="1555222459665" duration="4097000" />
       <workItem from="1555226691276" duration="103000" />
       <workItem from="1555226809571" duration="68000" />
-      <workItem from="1555226892022" duration="2752000" />
+      <workItem from="1555226892022" duration="3974000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1555145352019</created>
@@ -344,11 +386,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555226917995</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新建学习java的练习">
+      <created>1555229821678</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555229821678</updated>
+    </task>
+    <task id="LOCAL-00011" summary="新建学习java的练习">
+      <created>1555230691290</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555230691290</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35503000" />
+    <option name="totallyTimeSpent" value="36725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
@@ -362,7 +418,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32340425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -440,51 +496,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.github.gudian1618/Test.iml">
+    <entry file="file://$PROJECT_DIR$/Test.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_5.java">
+    <entry file="file://$PROJECT_DIR$/src/Test_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.github.gudian1618/src/Test_6.java">
+    <entry file="file://$PROJECT_DIR$/src/Wqe.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="190">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gihub/gudian1618/Test_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
