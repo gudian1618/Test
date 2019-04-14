@@ -17,7 +17,7 @@
  *
  */
 
-public class Test5 {
+public class Test_5 {
     public static void main(String[] args) {
         Outer outer = new Outer();
 //        // 在外部创建成员内部类的对象实例,成员内部类需要依赖外部类的对象，
@@ -29,6 +29,8 @@ public class Test5 {
 
         Outer.Inner3 inner3 = new Outer.Inner3();
         inner3.print();
+
+        outer.print1();
     }
 }
 
@@ -70,7 +72,22 @@ class Outer {
     }
 
     //-------匿名内部类-----------
+    public void print1() {
+        Cat cat = new Cat() {
+            @Override
+            public void eat() {
+                System.out.println("cat:继承式匿名内部类");;
+            }
+        };
+        cat.eat();
+    }
+
 
 }
+
+abstract class Cat {
+    public abstract void eat();
+}
+
 
 
