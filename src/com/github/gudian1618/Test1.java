@@ -1,4 +1,4 @@
-package com.gudian1618;
+package com.github.gudian1618;
 
 /*
 1、在类中的位置不同
@@ -34,10 +34,10 @@ package com.gudian1618;
 
 public class Test1 {
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        Dog dog1 = new Dog("wang",5);
+        Dog4 dog = new Dog4();
+        Dog4 dog1 = new Dog4("wang",5);
         
-        Cat cat = new Cat();
+        Cat1 cat = new Cat1();
         cat.setName("mimi");
         cat.setAge(3);
         
@@ -45,25 +45,25 @@ public class Test1 {
     }
 }
 
-class Dog{
+class Dog4{
     // 默认构造方法，在无参数时可以不显式的写，带参数的，默认构造物参数方法必须显式的写，有其他构造方法时，要保留默认构造方法
-    public Dog() {
+    public Dog4() {
         System.out.println("构造方法执行");
     }
     
-    public Dog(String name) {
+    public Dog4(String name) {
         this.name = name;
         System.out.println("带一个参数的构造方法执行");
     }
     
-    public Dog(String name, int age) {
+    public Dog4(String name, int age) {
         this(name);//调用其他构造方法时，此语句需要在第一句，在构造方法互相调用时，必须有出口，否则死循环
 //        this.name = name;
         this.age = age;
         System.out.println("带两个参数的构造方法执行");
     }
     
-    public Dog(String name, String sex) {
+    public Dog4(String name, String sex) {
         this.name = name;
         this.sex = sex;
         System.out.println("我是狗的构造方法");
@@ -88,7 +88,7 @@ class Dog{
     3、表示当前对象
     
  */
-class Cat {
+class Cat1 {
     private String name;
     private int age;
     

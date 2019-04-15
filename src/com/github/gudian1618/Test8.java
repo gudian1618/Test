@@ -1,4 +1,4 @@
-package com.gudian1618;
+package com.github.gudian1618;
 
 /**
  * @param
@@ -39,11 +39,11 @@ public class Test8 {
     }
 }
 
-abstract class Animal {
+abstract class Animal1 {
     public abstract void move(); // 方法的声明，抽象方法只有声明，没有实现
 }
 
-abstract class Person extends Animal {
+abstract class Person extends Animal1 {
     public abstract void eat();
     public void sleep() {
         System.out.println("睡觉");
