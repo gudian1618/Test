@@ -17,6 +17,18 @@ public class User {
     private int age;
     private String sex;
     
+    public User() {
+        super();
+    }
+    
+    public User(String username, String password, int age, String sex) {
+        super();
+        this.username = username;
+        this.password = password;
+        this.age = age;
+        this.sex = sex;
+    }
+    
     public String getUsername() {
         return username;
     }
@@ -47,5 +59,15 @@ public class User {
     
     public void setSex(String sex) {
         this.sex = sex;
+    }
+    
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", age=" + age +
+                ", sex='" + sex + '\'' +
+                '}';
     }
 }
