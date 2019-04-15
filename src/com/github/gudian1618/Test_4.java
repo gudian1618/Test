@@ -55,7 +55,6 @@ abstract class AnimalFunction implements Animal{
 }
 
 class Dog extends AnimalFunction {
-    @Override
     public void run() {
         System.out.println("我是疯狗，我爱跑！");
     }
@@ -67,8 +66,6 @@ class Adapter implements IPowerA {
     public Adapter(IPowerB powerB) {
         this.powerB = powerB;
     }
-
-    @Override
     public void insert() {
         powerB.connect();
     }
@@ -80,7 +77,6 @@ interface IPowerA {
 }
 
 class PowerAImpl implements IPowerA {
-    @Override
     public void insert() {
         System.out.println("电源A开始工作");
     }
@@ -91,7 +87,6 @@ interface IPowerB {
 }
 
 class PowerBImpl implements IPowerB {
-    @Override
     public void connect() {
         System.out.println("电源B开始工作");
     }

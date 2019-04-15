@@ -32,7 +32,7 @@ class Singleton1{
 }
 // 懒汉式，多线程时有安全问题，待修改
 class Singleton2 {
-    private Singleton2() {};
+    private Singleton2() {}
     private static Singleton2 s;
     
     public static Singleton2 getInstance() {
