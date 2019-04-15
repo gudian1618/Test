@@ -26,7 +26,9 @@ import java.util.Scanner;
  *      ClassCastException 类型转换
  *
  *
- * 自定义异常：
+ * 自定义异常：详见名称类
+ * 受检异常
+ * 非受检异常
  *
  */
 public class Test13 {
