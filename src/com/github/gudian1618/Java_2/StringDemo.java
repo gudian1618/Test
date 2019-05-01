@@ -25,6 +25,11 @@ public class StringDemo {
         System.out.println(s2);
         System.out.println(s1==s2);
 
+        String a = "a";
+        String a1 = a+1;
+        String a2 = "a1";
+        System.out.println(a1==a2);
+
 
 
     }
