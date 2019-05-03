@@ -5,8 +5,8 @@ package com.github.gudian1618.Java_2;
  * @author gudian1618
  * @version 1.0
  * @date 2019-05-01 22:11
- * @description
- * String 表示一个字符串，内部使用字符数组实现，不能被继承的最终类
+ * @descript
+ * String 表see示一个字符串，内部使用字符数组实现，不能被继承的最终类
  * 字符串常量池
  * String类编译器与运行期的分析，四种情况
  *
