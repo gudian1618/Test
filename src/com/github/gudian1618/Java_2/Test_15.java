@@ -25,6 +25,9 @@ public class Test_15 {
         Arrays.sort(cats);
         System.out.println(Arrays.toString(cats));
 
+        Dog[] dogs = {new Dog("凯凯",4),new Dog("jack",2)};
+        Arrays.sort(dogs,new DogComparator());
+        System.out.println(Arrays.toString(dogs));
 
 
     }

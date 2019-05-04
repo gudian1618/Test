@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ced7518a-16d4-4e4e-900f-fdc7d9a7220e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DogComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java" afterDir="false" />
@@ -57,30 +59,61 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="638">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="685">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="49" />
               <folding>
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
                 <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DogComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#277#278#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +167,10 @@
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/MathDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DateDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DogComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java" />
       </list>
     </option>
   </component>
@@ -273,7 +308,7 @@
       <workItem from="1556892248858" duration="4650000" />
       <workItem from="1556901176046" duration="67000" />
       <workItem from="1556901320784" duration="47000" />
-      <workItem from="1556931587244" duration="4390000" />
+      <workItem from="1556931587244" duration="8488000" />
     </task>
     <task id="LOCAL-00001" summary="新建的Java学习">
       <created>1555231499310</created>
@@ -380,11 +415,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556934404824</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="新修改">
+      <created>1556936220836</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1556936220836</updated>
+    </task>
+    <task id="LOCAL-00017" summary="新修改">
+      <created>1556937458523</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556937458523</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20640000" />
+    <option name="totallyTimeSpent" value="24738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="692" y="23" width="988" height="1027" extended-state="0" />
@@ -399,7 +448,7 @@
       <window_info id="Favorites" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32340425" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32234043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399361" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -917,28 +966,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DogComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="685">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="49" />
           <folding>
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
             <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
         </state>
       </provider>
     </entry>
