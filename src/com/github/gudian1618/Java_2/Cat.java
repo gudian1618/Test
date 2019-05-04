@@ -1,5 +1,7 @@
 package com.github.gudian1618.Java_2;
 
+import java.util.Arrays;
+
 /**
  * @param
  * @author gudian1618
@@ -8,7 +10,7 @@ package com.github.gudian1618.Java_2;
  * @description
  */
 
-public class Cat {
+public class Cat implements Comparable{
 
     private String name;
     private int age;
@@ -42,4 +44,10 @@ public class Cat {
     public String toString() {
         return "Cat [name="+name+",age="+age+"]";
     }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
+
 }

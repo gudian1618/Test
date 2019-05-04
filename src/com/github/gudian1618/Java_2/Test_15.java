@@ -21,5 +21,11 @@ public class Test_15 {
         Arrays.sort(names);
         System.out.println(Arrays.toString(names));;
 
+        Cat[] cats = {new Cat("粪粪",4),new Cat("Tom",2)};
+        Arrays.sort(cats);
+        System.out.println(Arrays.toString(cats));
+
+
+
     }
 }
