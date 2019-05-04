@@ -10,6 +10,7 @@ import static java.lang.Math.*;
  * @version 1.0
  * @date 2019-05-03 22:09
  * @description
+ * Math/Random/Date 类
  */
 
 public class MathDemo {
@@ -22,7 +23,8 @@ public class MathDemo {
 
         Random r = new Random();
         System.out.println(r.nextLong());
-        System.out.println(r.nextInt());
+        System.out.println(r.nextInt(10));
+
 
     }
 
