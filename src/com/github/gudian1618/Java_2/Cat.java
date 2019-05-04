@@ -13,6 +13,15 @@ public class Cat {
     private String name;
     private int age;
 
+    public Cat() {
+        super();
+    }
+
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
@@ -29,5 +38,8 @@ public class Cat {
         this.age = age;
     }
 
-
+    @Override
+    public String toString() {
+        return "Cat [name="+name+",age="+age+"]";
+    }
 }
