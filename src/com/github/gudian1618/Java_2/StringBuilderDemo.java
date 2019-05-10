@@ -27,7 +27,7 @@ public class StringBuilderDemo {
 
         String c = null;
         for (int i=0;i<5;i++) {
-            c += i;
+            c += i;//每次循环会产生一个StringBuilder对象实现拼接，性能低，最好是手动创建StringBuilder来拼接
         }
         //1、字符串相加，在编译后，会使用StringBuilder来优化代码，实现拼接
 

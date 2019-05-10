@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringBuilderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="682">
+              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -383,7 +383,7 @@
       <workItem from="1556901176046" duration="67000" />
       <workItem from="1556901320784" duration="47000" />
       <workItem from="1556931587244" duration="8990000" />
-      <workItem from="1557496701717" duration="3840000" />
+      <workItem from="1557496701717" duration="4203000" />
     </task>
     <task id="LOCAL-00001" summary="新建的Java学习">
       <created>1555231499310</created>
@@ -553,17 +553,31 @@
       <option name="project" value="LOCAL" />
       <updated>1557499407816</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="新修改">
+      <created>1557500668408</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1557500668408</updated>
+    </task>
+    <task id="LOCAL-00026" summary="新修改">
+      <created>1557500838416</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1557500838416</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29080000" />
+    <option name="totallyTimeSpent" value="29443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="763" y="23" width="917" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23336968" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23336968" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1152,8 +1166,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringBuilderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="682">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
         </state>
       </provider>
     </entry>
