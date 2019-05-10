@@ -26,6 +26,8 @@ public class StringBufferDemo {
         System.out.println(sb.toString());
 
         StringBuffer sb2 = new StringBuffer("abc");
+        sb2.delete(0, 1);
+
     }
 }
 
