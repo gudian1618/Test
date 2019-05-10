@@ -10,7 +10,18 @@ package com.github.gudian1618.Java_2;
 
 public class StringBuilderDemo {
     public static void main(String[] args) {
+
+        // 面试题：StringBuffer与StringBuilder的区别？
+        // StringBuffer是线程安全的，性能低
+        // StringBuilder是线程不安全的，性能高，适合在单线程中使用，这种情况占大多数，在JDK1.5以后添加
         StringBuilder sb = new StringBuilder();
+
+        // 字符串相加操作
+        // 1、多个常量相加没有性能问题，在编译期优化
+        // 2、变量与常量相加，会产生多个垃圾对象
+
+        String a = "a"+1;
+
 
     }
 }
