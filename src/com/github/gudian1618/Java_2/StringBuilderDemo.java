@@ -21,7 +21,14 @@ public class StringBuilderDemo {
         // 2、变量与常量相加，会产生多个垃圾对象
 
         String a = "a"+1;
+        System.out.println(a);
+        String b = a+"b";
+        System.out.println(b);
 
+        String c = null;
+        for (int i=0;i<5;i++) {
+            c += i;
+        }
 
     }
 }
