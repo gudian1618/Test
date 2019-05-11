@@ -1,5 +1,6 @@
 package com.github.gudian1618.Java_2;
 
+import java.text.MessageFormat;
 import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.Scanner;
@@ -31,7 +32,7 @@ public class I18NDemo {
         Scanner input = new Scanner(System.in);
         // 用于绑定属性文件的工具类（参数：属性文件的基本名）
         ResourceBundle r = ResourceBundle.getBundle(("com.github.gudian1618" +
-                ".Java_2.info"),locale_US);
+                ".Java_2.info"),locale_CN);
         System.out.println(r.getString("system.name"));
         System.out.println(r.getString("input.username"));
         String username = input.nextLine();
@@ -40,6 +41,13 @@ public class I18NDemo {
 
         if ("admin".equals(username) && "123".equals(password)) {
             System.out.println(r.getString("login.success"));
+
+            String welcome = r.getString("welcome");
+            // 动态文本格式化
+            welcome = MessageFormat.format(welcome, username);
+
+            System.out.println(welcome);
+
         } else {
             System.out.println(r.getString("login.error"));
 
