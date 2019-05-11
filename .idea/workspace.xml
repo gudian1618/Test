@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced7518a-16d4-4e4e-900f-fdc7d9a7220e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringBuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringBuilderDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="ced7518a-16d4-4e4e-900f-fdc7d9a7220e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringBuilderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+            <state relative-caret-position="220">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -383,7 +380,7 @@
       <workItem from="1556901176046" duration="67000" />
       <workItem from="1556901320784" duration="47000" />
       <workItem from="1556931587244" duration="8990000" />
-      <workItem from="1557496701717" duration="4203000" />
+      <workItem from="1557496701717" duration="4289000" />
     </task>
     <task id="LOCAL-00001" summary="新建的Java学习">
       <created>1555231499310</created>
@@ -567,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557500838416</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="新建">
+      <created>1557500940543</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1557500940543</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29443000" />
+    <option name="totallyTimeSpent" value="29529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="763" y="23" width="917" height="1027" extended-state="0" />
@@ -646,7 +650,8 @@
     <MESSAGE value="新建的Java学习" />
     <MESSAGE value="    新修改" />
     <MESSAGE value="新修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="新修改" />
+    <MESSAGE value="新建" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Test_2.java" />
@@ -1166,8 +1171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringBuilderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+        <state relative-caret-position="220">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
