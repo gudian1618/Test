@@ -10,7 +10,12 @@ import java.util.Scanner;
  * @version 1.0
  * @date 2019-05-11 20:11
  * @description
- *
+ *  程序国际化
+ * 1、Loacale
+ * 2、Properties文件：属性文件，内容以键值对的形式存放（key-value）
+ * 3、ResourceBundle工具类，来绑定属性文件，并指定Locale对象，来自动选择哪个属性文件，默认将使用与操作系统相同的语言环境
+ * getString()读取key中value
+ * 注意，该工具类ResourceBundle是一个只读类
  *
  */
 
