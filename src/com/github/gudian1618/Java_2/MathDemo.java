@@ -1,5 +1,6 @@
 package com.github.gudian1618.Java_2;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Random;
@@ -39,7 +40,18 @@ public class MathDemo {
         System.out.println(b1.divide(b2));
         System.out.println(b1.remainder(b2));
         System.out.println(Arrays.toString(b1.divideAndRemainder(b2)));
-
+        
+        String val3 = "5343.2542345234523";
+        String val4 = "656.34243242342332";
+    
+        BigDecimal h3 = new BigDecimal(val3);
+        BigDecimal h4 = new BigDecimal(val4);
+        System.out.println(h3.add(h4));
+        System.out.println(h3.subtract(h4));
+        System.out.println(h3.multiply(h4));
+        System.out.println(h3.divide(h4)); // 除不尽，有数学异常抛出
+        
+        
     }
 
 }
