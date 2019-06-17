@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/MD5Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="441">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#MD5Demo#0" expanded="true" />
@@ -191,6 +191,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tmooc_javase" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -304,7 +305,7 @@
       <workItem from="1560151861659" duration="597000" />
       <workItem from="1560152561968" duration="3308000" />
       <workItem from="1560778467873" duration="2669000" />
-      <workItem from="1560781166137" duration="966000" />
+      <workItem from="1560781166137" duration="1886000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1560154098990</created>
@@ -334,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560780297904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新建">
+      <created>1560782140852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560782140852</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22526000" />
+    <option name="totallyTimeSpent" value="23446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +368,7 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32910246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3392857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3392857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3859447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -784,8 +792,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/MD5Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="441">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#MD5Demo#0" expanded="true" />
