@@ -49,8 +49,9 @@ public class MathDemo {
         System.out.println(h3.add(h4));
         System.out.println(h3.subtract(h4));
         System.out.println(h3.multiply(h4));
-        System.out.println(h3.divide(h4));
-        // 除不尽，有数学异常抛出
+//        System.out.println(h3.divide(h4));
+        // 大数之间除不尽，有数学异常抛出
+        
         
         
         
