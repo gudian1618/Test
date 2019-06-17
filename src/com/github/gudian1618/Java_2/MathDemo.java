@@ -2,6 +2,8 @@ package com.github.gudian1618.Java_2;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -52,7 +54,10 @@ public class MathDemo {
 //        System.out.println(h3.divide(h4));
         // 大数之间除不尽，有数学异常抛出
         
-        
+        double pi = 3.1415927;
+        // 取一位整数
+        System.out.println(new DecimalFormat("0").format(pi));
+        System.out.println(new DecimalFormat("#.##%").format(pi));
         
         
         
