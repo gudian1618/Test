@@ -25,11 +25,14 @@ public class LambdaDemo {
         // Lambda表达式（类或者接口只有一个方法时），具体只有一句代码时，可以省略大括号的代码块。
         // 好处：代码简洁，不会单独生成class文件。
 //        IEat ieat3 = ()->System.out.println("eat apple banana");
+        // 没有参数时的使用
         IEat ieat3 = ()-> {
             System.out.println("eat apple banana");
         };
-        
         ieat3.eat();
+        
+        // 带参数时使用
+        
 
     
     }
