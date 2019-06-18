@@ -1,5 +1,8 @@
 package com.github.gudian1618.Java_2;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * @param
  * @author gudian1618
@@ -36,7 +39,30 @@ public class LambdaDemo {
         ieat5.eat("pig", 12);
         
         // 带返回值的方法中只有一句实现代码时，去掉{}直接写结果值，去掉return。
-        IEat ieat6 = (thing, age) ->thing==null?0:1;
+//        IEat ieat6 = (thing, age) ->thing==null?1:0;
+        
+        ieat5.eat("apple", 12);
+    
+        Student[] students = {
+                new Student("张三", 18),
+                new Student("张四", 14),
+                new Student("张二", 24)};
+//        Arrays.sort(students, new Comparator<Student>() {
+//            @Override
+//            public int compare(Student o1, Student o2) {
+//                return o1.getAge()-o2.getAge();
+//            }
+//        });
+        
+//        Comparator<Student> c = (o1, o2)->o1.getAge()-o2.getAge();
+        Arrays.sort(students, Comparator.comparingInt(Student::getAge));
+        System.out.println(Arrays.toString(students));
+        IEat.method();
+        
+    }
+    
+    private static int compare(Student o1, Student o2) {
+        return o1.getAge() - o2.getAge();
     }
 }
 
@@ -46,7 +72,13 @@ public class LambdaDemo {
 //}
 
 interface IEat {
-    public int eat(String thing,int age);
+    public int eat(final String thing, final int age);
+    public default void print() {
+        System.out.println("print test");
+    }
+    public static void method() {
+        System.out.println("static method...");
+    }
 }
 
 //class IEatImpl implements IEat {
