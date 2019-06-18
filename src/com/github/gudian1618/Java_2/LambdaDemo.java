@@ -64,6 +64,8 @@ public class LambdaDemo {
     private static int compare(Student o1, Student o2) {
         return o1.getAge() - o2.getAge();
     }
+    // 默认方法与静态方法并不影响接口的契约，可以任意使用
+    
 }
 
 //// 只有一个抽象方法的接口
