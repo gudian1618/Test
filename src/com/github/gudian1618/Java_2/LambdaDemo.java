@@ -36,7 +36,7 @@ public class LambdaDemo {
         ieat5.eat("pig", 12);
         
         // 带返回值的方法中只有一句实现代码时，去掉{}直接写结果值，去掉return。
-    
+        IEat ieat6 = (thing, age) ->thing==null?0:1;
     }
 }
 
