@@ -82,9 +82,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="465">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#FileDemo#0" expanded="true" />
               </folding>
             </state>
@@ -181,6 +182,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gudian1618" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gudian1618" type="462c0819:PsiDirectoryNode" />
+              <item name="Java_3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTrreeDemo">
+  <component name="RunManager" selected="Application.FileDemo">
     <configuration name="BinaryTrreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_2.BinaryTrreeDemo" />
       <module name="Test" />
@@ -230,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_2.LambdaDemo" />
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.FileDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_2.*" />
+          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,8 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MD5Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_2.MD5Demo" />
+    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_2.LambdaDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -284,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileDemo" />
         <item itemvalue="Application.BinaryTrreeDemo" />
         <item itemvalue="Application.SystemRuntimeDemo" />
         <item itemvalue="Application.LambdaDemo" />
         <item itemvalue="Application.Test20" />
-        <item itemvalue="Application.MD5Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +329,7 @@
       <workItem from="1560824880824" duration="645000" />
       <workItem from="1560826512186" duration="5087000" />
       <workItem from="1560842019345" duration="1523000" />
-      <workItem from="1560844480013" duration="4271000" />
+      <workItem from="1560844480013" duration="4833000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1560154098990</created>
@@ -491,11 +499,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560848396491</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="新建">
+      <created>1560848776786</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560848776786</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37855000" />
+    <option name="totallyTimeSpent" value="38417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,7 +525,7 @@
     <frame x="811" y="0" width="1116" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21181819" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21181819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1062,9 +1077,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="465">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#FileDemo#0" expanded="true" />
           </folding>
         </state>
