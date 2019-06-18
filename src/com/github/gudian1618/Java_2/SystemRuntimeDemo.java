@@ -1,5 +1,6 @@
 package com.github.gudian1618.Java_2;
 
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -29,16 +30,20 @@ public class SystemRuntimeDemo {
         DateFormat df = new SimpleDateFormat("HH:mm:ss");
         String q = df.format(nowDate);
         System.out.println(q);
-        System.exit(0);
         System.out.println(System.getProperty("java.version"));
         System.out.println(System.getProperty("java.home"));
         System.out.println(System.getProperty("os.name"));
         
         Runtime rt = Runtime.getRuntime();
         System.out.println("处理器数量："+rt.availableProcessors());
-        System.out.println("jvm总内存：" +rt.totalMemory());
+        System.out.println("jvm总的内存：" +rt.totalMemory());
         System.out.println("jvm空闲内存：" +rt.freeMemory());
         System.out.println("jvm最大内存：" +rt.maxMemory());
-        
+        try {
+            rt.exec("notepad");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    
     }
 }
