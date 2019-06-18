@@ -12,15 +12,15 @@ public class LambdaDemo {
     public static void main(String[] args) {
         
         IEat ieat = new IEatImpl();
-        ieat.eat("banana");
+        ieat.eat("banana",12);
         
         IEat ieat2 = new IEat() {
             @Override
-            public void eat(String thing) {
-                System.out.println("eat banana"+thing);
+            public void eat(String thing, int age) {
+                System.out.println("eat banana"+thing+"..."+age);
             }
         };
-        ieat2.eat("pig");
+        ieat2.eat("pig",15);
         
         // Lambda表达式（类或者接口只有一个方法时），具体只有一句代码时，可以省略大括号的代码块。
         // 好处：代码简洁，不会单独生成class文件。
@@ -31,11 +31,11 @@ public class LambdaDemo {
 //        };
 //        ieat3.eat();
         
-        // 带参数时使用
-        IEat ieat4 = (String thing) -> {
-            System.out.println("eat..." + thing);
+        // Lambda表达式带参数时使用,参数类型可以省略。
+        IEat ieat4 = (thing, age) -> {
+            System.out.println("eat..." + thing+"..."+age);
         };
-        ieat4.eat("apple");
+        ieat4.eat("apple",24);
 
     
     }
@@ -47,12 +47,12 @@ public class LambdaDemo {
 //}
 
 interface IEat {
-    public void eat(String thing);
+    public void eat(String thing,int age);
 }
 
 class IEatImpl implements IEat {
     @Override
-    public void eat(String thing) {
-        System.out.println("eat apple"+thing);
+    public void eat(String thing, int age) {
+        System.out.println("eat apple"+thing+"..."+age);
     }
 }
