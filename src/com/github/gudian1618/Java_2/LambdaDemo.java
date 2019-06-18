@@ -12,40 +12,47 @@ public class LambdaDemo {
     public static void main(String[] args) {
         
         IEat ieat = new IEatImpl();
-        ieat.eat();
+        ieat.eat("banana");
         
         IEat ieat2 = new IEat() {
             @Override
-            public void eat() {
-                System.out.println("eat banana");
+            public void eat(String thing) {
+                System.out.println("eat banana"+thing);
             }
         };
-        ieat2.eat();
+        ieat2.eat("pig");
         
         // Lambda表达式（类或者接口只有一个方法时），具体只有一句代码时，可以省略大括号的代码块。
         // 好处：代码简洁，不会单独生成class文件。
 //        IEat ieat3 = ()->System.out.println("eat apple banana");
         // 没有参数时的使用
-        IEat ieat3 = ()-> {
-            System.out.println("eat apple banana");
-        };
-        ieat3.eat();
+//        IEat ieat3 = ()-> {
+//            System.out.println("eat apple banana");
+//        };
+//        ieat3.eat();
         
         // 带参数时使用
-        
+        IEat ieat4 = (String thing) -> {
+            System.out.println("eat..." + thing);
+        };
+        ieat4.eat("apple");
 
     
     }
 }
 
-// 只有一个抽象方法的接口
+//// 只有一个抽象方法的接口
+//interface IEat {
+//    public void eat();
+//}
+
 interface IEat {
-    public void eat();
+    public void eat(String thing);
 }
 
 class IEatImpl implements IEat {
     @Override
-    public void eat() {
-        System.out.println("eat apple");
+    public void eat(String thing) {
+        System.out.println("eat apple"+thing);
     }
 }
