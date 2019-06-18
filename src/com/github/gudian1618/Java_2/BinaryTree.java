@@ -20,7 +20,7 @@ public class BinaryTree {
     }
     
     public void print() {
-    
+        root.printNode();
     }
     
     private class Node {
@@ -48,10 +48,15 @@ public class BinaryTree {
             }
         }
         
-        // 中序遍历的方法
+        // 中序遍历的方法(先序遍历，后续遍历)
         public void printNode() {
-        
-        
+            if (this.left!=null) {
+                this.left.printNode();
+            }
+            System.out.print(this.data+"->");
+            if (this.right!=null) {
+                this.right.printNode();
+            }
         }
     }
 }
