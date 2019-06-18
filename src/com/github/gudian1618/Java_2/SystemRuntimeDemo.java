@@ -44,6 +44,9 @@ public class SystemRuntimeDemo {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        
+        // 加载C、C++编写的类库，或者第三方类库
+//        System.loadLibrary(libname);
     
     }
 }
