@@ -29,6 +29,16 @@ public class SystemRuntimeDemo {
         DateFormat df = new SimpleDateFormat("HH:mm:ss");
         String q = df.format(nowDate);
         System.out.println(q);
+        System.exit(0);
+        System.out.println(System.getProperty("java.version"));
+        System.out.println(System.getProperty("java.home"));
+        System.out.println(System.getProperty("os.name"));
+        
+        Runtime rt = Runtime.getRuntime();
+        System.out.println("处理器数量："+rt.availableProcessors());
+        System.out.println("jvm总内存：" +rt.totalMemory());
+        System.out.println("jvm空闲内存：" +rt.freeMemory());
+        System.out.println("jvm最大内存：" +rt.maxMemory());
         
     }
 }

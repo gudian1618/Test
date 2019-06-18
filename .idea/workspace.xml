@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/SystemRuntimeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/SystemRuntimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/SystemRuntimeDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/SystemRuntimeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="777">
+              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +154,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +289,8 @@
       <workItem from="1560781166137" duration="4769000" />
       <workItem from="1560824880824" duration="645000" />
       <workItem from="1560826512186" duration="5087000" />
-      <workItem from="1560842019345" duration="1444000" />
+      <workItem from="1560842019345" duration="1523000" />
+      <workItem from="1560844480013" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1560154098990</created>
@@ -403,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560842556210</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="新建">
+      <created>1560843531434</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1560843531434</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33505000" />
+    <option name="totallyTimeSpent" value="34213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +437,7 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32910246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3359375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.3359375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3859447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,7 +449,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" weight="0.32949308" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5004533" side_tool="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50087565" side_tool="true" weight="0.3359375" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="15" sideWeight="0.49954668" weight="0.32949308" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32924107" />
       <window_info anchor="bottom" id="Problems" order="17" weight="0.32949308" />
@@ -925,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/SystemRuntimeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="777">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
