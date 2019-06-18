@@ -2,6 +2,7 @@ package com.github.gudian1618.Java_3;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
 /**
  * @param
@@ -32,9 +33,15 @@ public class FileDemo {
         System.out.println("是否为文件夹："+f1.isDirectory());
         // 需要手动建立新的文件夹my，且删除文件夹的时候必须保证文件夹是空的才可以删除，里面有文件无法删除。
         File f2 = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/my");
+        File f3 = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3");
         System.out.println("是否为文件夹："+f2.isDirectory());
 
         boolean b = f2.delete();
         System.out.println(b);
+        
+        String[] names = f3.list();
+        System.out.println(Arrays.toString(names));
+        
+        
     }
 }
