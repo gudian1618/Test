@@ -2,7 +2,10 @@ package com.github.gudian1618.Java_3;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * @param
@@ -39,9 +42,24 @@ public class FileDemo {
         boolean b = f2.delete();
         System.out.println(b);
         
+        // 列出当前目录下所有的文件名
         String[] names = f3.list();
         System.out.println(Arrays.toString(names));
         
-        
+        // 列出当前目录下所有文件，以file对象返回
+        File[] fs = f2.listFiles();
+        for (File f:fs) {
+            System.out.println("length:"+f.length());
+            System.out.println("name:"+f.getName());
+            System.out.println("相对路径:"+f.getPath());
+            System.out.println("绝对路径:"+f.getAbsolutePath());
+            System.out.println("是否为隐藏文件:"+f.isHidden());
+            System.out.println("是否为可读文件:"+f.canRead());
+            Date date = new Date(f.lastModified());
+            DateFormat df = new SimpleDateFormat("HH:mm:ss");
+            System.out.println("文件最后的修改时间:"+df.format(date));
+            System.out.println("------------------");
+        }
+    
     }
 }
