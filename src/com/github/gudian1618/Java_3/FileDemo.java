@@ -47,8 +47,8 @@ public class FileDemo {
         System.out.println(Arrays.toString(names));
         
         // 列出当前目录下所有文件，以file对象返回
-        File[] fs = f2.listFiles();
-        for (File f:fs) {
+        File[] fs = f3.listFiles();
+        for(File f: fs) {
             System.out.println("length:"+f.length());
             System.out.println("name:"+f.getName());
             System.out.println("相对路径:"+f.getPath());
@@ -58,7 +58,7 @@ public class FileDemo {
             Date date = new Date(f.lastModified());
             DateFormat df = new SimpleDateFormat("HH:mm:ss");
             System.out.println("文件最后的修改时间:"+df.format(date));
-            System.out.println("------------------");
+            System.out.println("---------------------------");
         }
     
     }
