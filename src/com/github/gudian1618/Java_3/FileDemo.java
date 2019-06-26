@@ -1,7 +1,6 @@
 package com.github.gudian1618.Java_3;
 
 import java.io.File;
-import java.io.FileFilter;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -73,12 +72,14 @@ public class FileDemo {
         
         f5.renameTo(new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/temp/dabin"));
         
-        File[] files = f5.listFiles(new FileFilter() {
-            @Override
-            public boolean accept(File pathname) {
-                return pathname.getName().endsWith(".txt");
-            }
-        });
+//        File[] files = f5.listFiles(new FileFilter() {
+//            @Override
+//            public boolean accept(File pathname) {
+//                return pathname.getName().endsWith(".txt");
+//            }
+//        });
+        // lambda表达式实现
+        File[] files = f5.listFiles((pathname)->pathname.getName().endsWith(".txt"));
         System.out.println("----------");
         for (File f:files) {
             System.out.println(f.getName());
