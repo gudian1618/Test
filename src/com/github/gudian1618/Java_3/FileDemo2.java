@@ -14,7 +14,7 @@ import java.io.File;
 public class FileDemo2 {
     
     public static void main(String[] args) {
-        findFile(new File("D:\\"), ".jpg");
+        findFile(new File("D:\\桌面"), ".jpg");
     
     }
     
