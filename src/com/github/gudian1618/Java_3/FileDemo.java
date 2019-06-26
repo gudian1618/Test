@@ -76,8 +76,7 @@ public class FileDemo {
         File[] files = f5.listFiles(new FileFilter() {
             @Override
             public boolean accept(File pathname) {
-                pathname.getName().endsWith(".txt");
-                return false;
+                return pathname.getName().endsWith(".txt");
             }
         });
         System.out.println("----------");
