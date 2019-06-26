@@ -24,14 +24,14 @@ public class FileDemo2 {
             File[] files = target.listFiles();
             if (files!=null) {
                 for (File f:files) {
-                    // 递归调用
+                    // 递归调用。循环层数太多容易内存溢出卡死
                     findFile(f,ext);
                 }
             }
         } else {
             // 此处表示File是一个文件
             String name = target.getName().toLowerCase();
-            System.out.println(name);
+//            System.out.println(name);
             if (name.endsWith(ext)) {
                 System.out.println(target.getAbsolutePath());
             }

@@ -93,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="417">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding>
                 <element signature="docComment;class#FileDemo2#0" expanded="true" />
               </folding>
@@ -380,7 +380,7 @@
       <workItem from="1560934697219" duration="1986000" />
       <workItem from="1561464747984" duration="2727000" />
       <workItem from="1561551294286" duration="768000" />
-      <workItem from="1561554175613" duration="3114000" />
+      <workItem from="1561554175613" duration="3216000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1560154098990</created>
@@ -655,11 +655,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561557203588</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="新建">
+      <created>1561557368984</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1561557368984</updated>
+    </task>
+    <task id="LOCAL-00041" summary="新建">
+      <created>1561557403522</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1561557403522</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49463000" />
+    <option name="totallyTimeSpent" value="49565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +695,7 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32910246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912435" visible="true" weight="0.3359375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.3359375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3859447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1252,8 +1266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="417">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
           <folding>
             <element signature="docComment;class#FileDemo2#0" expanded="true" />
           </folding>
