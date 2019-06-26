@@ -68,6 +68,9 @@ public class FileDemo {
         File f5 = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/dabin");
         f5.mkdir();
         
+        f5.renameTo(new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/dabin1"));
+        
+        f5.renameTo(new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/temp/dabin"));
     
     }
 }
