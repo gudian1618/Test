@@ -93,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="236">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
                 <element signature="docComment;class#FileDemo2#0" expanded="true" />
               </folding>
@@ -380,7 +380,7 @@
       <workItem from="1560934697219" duration="1986000" />
       <workItem from="1561464747984" duration="2727000" />
       <workItem from="1561551294286" duration="768000" />
-      <workItem from="1561554175613" duration="2937000" />
+      <workItem from="1561554175613" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1560154098990</created>
@@ -648,11 +648,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561557106344</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="新建">
+      <created>1561557203588</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1561557203588</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49286000" />
+    <option name="totallyTimeSpent" value="49463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -667,14 +674,14 @@
     <frame x="880" y="0" width="1047" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2386033" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32910246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.3359375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912435" visible="true" weight="0.3359375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3859447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1245,8 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="236">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding>
             <element signature="docComment;class#FileDemo2#0" expanded="true" />
           </folding>

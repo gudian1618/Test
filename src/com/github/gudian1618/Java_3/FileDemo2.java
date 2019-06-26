@@ -24,12 +24,14 @@ public class FileDemo2 {
             File[] files = target.listFiles();
             if (files!=null) {
                 for (File f:files) {
+                    // 递归调用
                     findFile(f,ext);
                 }
             }
         } else {
             // 此处表示File是一个文件
-            String name = target.getName().toUpperCase();
+            String name = target.getName().toLowerCase();
+            System.out.println(name);
             if (name.endsWith(ext)) {
                 System.out.println(target.getAbsolutePath());
             }
