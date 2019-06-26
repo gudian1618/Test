@@ -65,6 +65,9 @@ public class FileDemo {
         System.out.println(f4.getPath());
         System.out.println(f4.getAbsolutePath());
         
+        File f5 = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/dabin");
+        f5.mkdir();
+        
     
     }
 }
