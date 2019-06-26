@@ -64,6 +64,7 @@ public class FileDemo {
         File f4 = new File("temp.txt");
         System.out.println(f4.getPath());
         System.out.println(f4.getAbsolutePath());
+        
     
     }
 }
