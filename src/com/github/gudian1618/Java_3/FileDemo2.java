@@ -29,8 +29,10 @@ public class FileDemo2 {
             }
         } else {
             // 此处表示File是一个文件
-            target.getName()
-        
+            String name = target.getName().toUpperCase();
+            if (name.endsWith(ext)) {
+                System.out.println(target.getAbsolutePath());
+            }
         }
     }
 }

@@ -93,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="729">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#FileDemo2#0" expanded="true" />
               </folding>
@@ -270,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileDemo">
+  <component name="RunManager" selected="Application.FileDemo2">
     <configuration name="BinaryTrreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_2.BinaryTrreeDemo" />
       <module name="Test" />
@@ -286,6 +286,19 @@
     </configuration>
     <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.FileDemo" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.FileDemo2" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -323,26 +336,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_2.Test20" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileDemo2" />
         <item itemvalue="Application.FileDemo" />
         <item itemvalue="Application.BinaryTrreeDemo" />
         <item itemvalue="Application.SystemRuntimeDemo" />
         <item itemvalue="Application.LambdaDemo" />
-        <item itemvalue="Application.Test20" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +380,7 @@
       <workItem from="1560934697219" duration="1986000" />
       <workItem from="1561464747984" duration="2727000" />
       <workItem from="1561551294286" duration="768000" />
-      <workItem from="1561554175613" duration="2850000" />
+      <workItem from="1561554175613" duration="2937000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1560154098990</created>
@@ -641,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561556863189</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="新建">
+      <created>1561557106344</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1561557106344</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49199000" />
+    <option name="totallyTimeSpent" value="49286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1238,8 +1245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="729">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#FileDemo2#0" expanded="true" />
           </folding>
