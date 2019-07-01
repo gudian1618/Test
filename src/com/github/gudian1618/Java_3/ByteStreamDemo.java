@@ -16,15 +16,15 @@ public class ByteStreamDemo {
     
     private static void out() {
         // 0、确实目标文件
-        File file = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/lianxi.txt");
+        File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github/gudian1618/Java_3/lianxi.txt");
         // 1、构建一个文件输出流对象
         try {
             OutputStream out = new FileOutputStream(file);
-            // 输出的内容是
+            // 2、输出的内容是
             String info = "小河流水哗啦啦";
-            // 把内容写入到文件
+            // 3、把内容写入到文件
             out.write(info.getBytes());
-            // 关闭流
+            // 4、关闭流
             out.close();
             System.out.println("write success!");
         } catch (FileNotFoundException e) {
