@@ -13,6 +13,18 @@ import java.io.*;
  * 输入流：超类InputStream，对文件的输入使用子类FileInputStream
  */
 public class ByteStreamDemo {
+
+    private static void in() {
+        File file =
+            new File("/Users/zyd/IdeaProjects/Test/src/com/github/gudian1618" +
+                "/Java_3/lianxi1.txt");
+        try {
+            InputStream in = new FileInputStream(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
     
     private static void out() {
         // 0、确实目标文件
