@@ -15,9 +15,9 @@ import java.io.*;
 public class ByteStreamDemo {
     
     private static void out() {
-        // 确实目标文件
+        // 0、确实目标文件
         File file = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/lianxi.txt");
-        // 构建一个文件输出流对象
+        // 1、构建一个文件输出流对象
         try {
             OutputStream out = new FileOutputStream(file);
             // 输出的内容是
