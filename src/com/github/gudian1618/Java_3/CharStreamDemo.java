@@ -38,7 +38,7 @@ public class CharStreamDemo {
             int len = -1;
             StringBuilder buf = new StringBuilder();
             while ((len=in.read(cs))!=-1) {
-                buf.append(new String()cs,0,len);
+                buf.append(new String(cs,0,len));
             }
             in.close();
         } catch (FileNotFoundException e) {
