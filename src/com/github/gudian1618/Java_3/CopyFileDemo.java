@@ -8,6 +8,8 @@ import java.io.*;
  * @version 1.0
  * @date 2019-07-03 23:29
  * @description
+ * 文件的复制：
+ * 从一个输入流中读取数据，然后通过输出流写入目标位置。
  */
 
 public class CopyFileDemo {
