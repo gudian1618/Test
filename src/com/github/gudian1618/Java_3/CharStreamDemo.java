@@ -1,9 +1,6 @@
 package com.github.gudian1618.Java_3;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Writer;
+import java.io.*;
 
 /**
  * @param
@@ -32,7 +29,26 @@ public class CharStreamDemo {
         }
     }
 
-    public static void main(String[] args) {
+    private static void in() {
+        File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
+            "/gudian1618/Java_3/lianxi1.txt");
+        try {
+            Reader in = new FileReader(file);
+            char[] cs = new char[1];
+            int len = -1;
+            StringBuilder buf = new StringBuilder();
+            while ((len=in.read(cs))!=-1) {
+                buf.append(new String()cs,0,len);
+            }
+            in.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
+    public static void main(String[] args) {
+        out();
     }
 }
