@@ -23,7 +23,15 @@ public class CopyFileDemo {
             InputStream in = new FileInputStream(srcfile);
             OutputStream out = new FileOutputStream(targetfile);
 
+            byte[] bytes = new byte[256];
+            int len = -1;
+            while ((len=in.read(bytes))!=-1) {
+                out.write(bytes,0,len);
+
+            }
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
