@@ -51,6 +51,8 @@ public class ByteStreamDemo {
             OutputStream out = new FileOutputStream(file,true);
             // 2、输出的内容是
             String info = "小河流水哗啦啦\n";
+            // \n表示换行
+
             // 3、把内容写入到文件
             out.write(info.getBytes());
             // 4、关闭流
