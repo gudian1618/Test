@@ -11,6 +11,7 @@ import java.io.*;
  * 字节输出流
  * 输出流：超类OutputStream，对文件的输出流使用子类FileOutputStream
  * 输入流：超类InputStream，对文件的输入使用子类FileInputStream
+ * 输入输出字节流操作原理：每次只会操作一个字节，从文件中读取或写入。
  */
 public class ByteStreamDemo {
 
@@ -21,14 +22,14 @@ public class ByteStreamDemo {
         try {
             InputStream in = new FileInputStream(file);
 
-            byte[] bytes = new byte[40];
+            byte[] bytes = new byte[120];
             // 表示每次读取的字节长度
             StringBuilder buf = new StringBuilder();
             int len = -1;
             // 把数据读入到数组中，并返回读取的字节数，当不等于-1时，表示读取到数据，等于-1表示文件已读完
             while ((len = in.read(bytes))!=-1) {
                 // 根据读取的字节数组，再转化为字符串内容，添加到StringBuilder
-                buf.append(new String(bytes));
+                buf.append(new String(bytes,0,len));
             }
             System.out.println(buf);
             // 关闭输入流
