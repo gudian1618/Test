@@ -1,5 +1,7 @@
 package com.github.gudian1618.Java_3;
 
+import java.io.*;
+
 /**
  * @param
  * @author gudian1618
@@ -14,8 +16,16 @@ public class CopyFileDemo {
 
     }
 
-    private static void copy(String) {
+    private static void copy(String src, String target) {
+        File srcfile = new File(src);
+        File targetfile = new File(target);
+        try {
+            InputStream in = new FileInputStream(srcfile);
+            OutputStream out = new FileOutputStream(targetfile);
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
 }
