@@ -12,7 +12,8 @@ import java.io.*;
  * 字符输入流：Writer，对文件的操作使用子类：FileWriter
  * 字符输出流：Reader，对文件的操作使用子类：FileReader
  * 每次操作的单位是一个字符
- *
+ * 文件字符操作流会自带缓存，默认大小为1024字节，在缓存满后，或手动刷新缓存，或者关闭流时会把数据写入文件中。
+ * 字节操作流，默认每次执行写入操作会直接把数据写入文件
  */
 
 public class CharStreamDemo {
@@ -41,6 +42,7 @@ public class CharStreamDemo {
                 buf.append(new String(cs,0,len));
             }
             in.close();
+            System.out.println(buf);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -50,5 +52,6 @@ public class CharStreamDemo {
 
     public static void main(String[] args) {
         out();
+        in();
     }
 }
