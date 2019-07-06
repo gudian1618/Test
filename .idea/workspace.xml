@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-              <folding>
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="65">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -163,6 +159,8 @@
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ByteStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CharStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeSTreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java" />
       </list>
     </option>
   </component>
@@ -341,14 +339,7 @@
       <workItem from="1561551294286" duration="768000" />
       <workItem from="1561554175613" duration="4941000" />
       <workItem from="1561729209006" duration="15000" />
-      <workItem from="1561987657957" duration="9917000" />
-    </task>
-    <task id="LOCAL-00009" summary="新建">
-      <created>1560827656738</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1560827656738</updated>
+      <workItem from="1561987657957" duration="11121000" />
     </task>
     <task id="LOCAL-00010" summary="新建">
       <created>1560827728782</created>
@@ -686,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562169554991</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="新建">
+      <created>1562169660084</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1562169660084</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61222000" />
+    <option name="totallyTimeSpent" value="62426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1273,8 +1271,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="65">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
