@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+            <state relative-caret-position="242">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,9 +230,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyFileDemo">
+  <component name="RunManager" selected="Application.ChangeStreamDemo">
     <configuration name="ByteStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.ByteStreamDemo" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangeStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.ChangeStreamDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -270,19 +283,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.FileDemo" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.FileDemo2" />
       <module name="Test" />
@@ -298,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChangeStreamDemo" />
         <item itemvalue="Application.CopyFileDemo" />
         <item itemvalue="Application.CharStreamDemo" />
         <item itemvalue="Application.ByteStreamDemo" />
         <item itemvalue="Application.FileDemo2" />
-        <item itemvalue="Application.FileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -342,21 +342,7 @@
       <workItem from="1561551294286" duration="768000" />
       <workItem from="1561554175613" duration="4941000" />
       <workItem from="1561729209006" duration="15000" />
-      <workItem from="1561987657957" duration="11725000" />
-    </task>
-    <task id="LOCAL-00012" summary="新建">
-      <created>1560828333459</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1560828333459</updated>
-    </task>
-    <task id="LOCAL-00013" summary="新建">
-      <created>1560828794901</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1560828794901</updated>
+      <workItem from="1561987657957" duration="13221000" />
     </task>
     <task id="LOCAL-00014" summary="新建">
       <created>1560839663757</created>
@@ -687,11 +673,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562424666026</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="新建">
+      <created>1562424801951</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1562424801951</updated>
+    </task>
+    <task id="LOCAL-00062" summary="新建">
+      <created>1562426177550</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1562426177550</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63030000" />
+    <option name="totallyTimeSpent" value="64526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,7 +713,7 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32910246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.33546326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912435" visible="true" weight="0.33404255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38404256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1281,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -9,13 +9,24 @@ import java.nio.charset.Charset;
  * @version 1.0
  * @date 2019-07-06 22:41
  * @description
- * 转换流：
- * OutputStreamWriter：可以将输出的字符流转换为字节流的输出形式
+ * 转换流：输入输出都是相对程序而言，流入程序叫输入，流出程序叫输出。
+ * OutputStreamWriter：可以将输出的字符流转换为字节流的输出形式，
  * InputStreamReader：将输入的字节流转换为字符流输入形式
+ * 代码的表现形式是字节流转换成字符流。
  *
  */
 
 public class ChangeStreamDemo {
+
+    private static void write(OutputStream out) {
+        Writer writer = new OutputStreamWriter(out, Charset.defaultCharset());
+        try {
+            writer.write("开开心心来玩耍\n");
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     private static void read(InputStream in) {
         Reader reader = new InputStreamReader(in, Charset.forName("UTF-8"));
@@ -36,6 +47,9 @@ public class ChangeStreamDemo {
         InputStream in = new FileInputStream("/Users/zyd/IdeaProjects/Test" +
             "/src/com/github/gudian1618/Java_3/lianxi.txt");
         read(in);
+        OutputStream out = new FileOutputStream("/Users/zyd/IdeaProjects/Test" +
+            "/src/com/github/gudian1618/Java_3/lianxi2.txt");
+        write(out);
 
     }
 }
