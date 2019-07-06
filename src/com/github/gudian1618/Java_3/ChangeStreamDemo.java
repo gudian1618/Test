@@ -1,9 +1,6 @@
 package com.github.gudian1618.Java_3;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
+import java.io.*;
 import java.nio.charset.Charset;
 
 /**
@@ -35,7 +32,9 @@ public class ChangeStreamDemo {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
+        InputStream in = new FileInputStream("/Users/zyd/IdeaProjects/Test" +
+            "/src/com/github/gudian1618/Java_3/lianxi2.txt");
 
     }
 }
