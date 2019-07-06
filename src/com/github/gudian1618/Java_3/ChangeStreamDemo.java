@@ -17,7 +17,7 @@ import java.nio.charset.Charset;
 
 public class ChangeStreamDemo {
 
-    private static void in(InputStream in) {
+    private static void read(InputStream in) {
         Reader reader = new InputStreamReader(in, Charset.forName("UTF-8"));
         char[] cs = new char[128];
         int len = -1;
@@ -34,7 +34,8 @@ public class ChangeStreamDemo {
 
     public static void main(String[] args) throws FileNotFoundException {
         InputStream in = new FileInputStream("/Users/zyd/IdeaProjects/Test" +
-            "/src/com/github/gudian1618/Java_3/lianxi2.txt");
+            "/src/com/github/gudian1618/Java_3/lianxi.txt");
+        read(in);
 
     }
 }
