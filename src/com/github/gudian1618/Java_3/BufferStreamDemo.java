@@ -27,8 +27,9 @@ public class BufferStreamDemo {
             byte[] bytes = new byte[1024];
             int len = -1;
             while ((len=bis.read(bytes))!=-1) {
-                System.out.println(new String());
+                System.out.println(new String(bytes,0,len));
             }
+            bis.close();
             // out.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -56,5 +57,6 @@ public class BufferStreamDemo {
     }
     public static void main(String[] args) {
         byteWriter();
+        byteReader();
     }
 }

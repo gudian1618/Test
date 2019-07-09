@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_3/BufferStreamDemo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,12 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="733">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -342,14 +337,7 @@
       <workItem from="1561554175613" duration="4941000" />
       <workItem from="1561729209006" duration="15000" />
       <workItem from="1561987657957" duration="13996000" />
-      <workItem from="1562685342693" duration="1817000" />
-    </task>
-    <task id="LOCAL-00022" summary="新建">
-      <created>1560847511529</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1560847511529</updated>
+      <workItem from="1562685342693" duration="1882000" />
     </task>
     <task id="LOCAL-00023" summary="新建">
       <created>1560848013794</created>
@@ -687,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562686616827</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="新建">
+      <created>1562687172363</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1562687172364</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67118000" />
+    <option name="totallyTimeSpent" value="67183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1294,12 +1289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="733">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
         </state>
       </provider>
     </entry>
