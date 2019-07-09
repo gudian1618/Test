@@ -12,7 +12,7 @@ import java.io.*;
 
 public class BufferStreamDemo {
 
-    private static void byteWriter() throws IOException {
+    private static void byteWriter() {
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
             "/gudian1618/Java_3/lianxi3.txt");
         try {
@@ -29,6 +29,6 @@ public class BufferStreamDemo {
         }
     }
     public static void main(String[] args) {
-
+        byteWriter();
     }
 }
