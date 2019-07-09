@@ -8,6 +8,8 @@ import java.io.*;
  * @version 1.0
  * @date 2019-07-09 23:21
  * @description
+ * 缓存的目的：
+ * 解决在写入文件操作时，频繁的操作文件所带来的性能降低的问题。
  */
 
 public class BufferStreamDemo {
@@ -22,6 +24,7 @@ public class BufferStreamDemo {
             String info = "小河还是流水哗啦啦";
             out.write(info.getBytes());
             bos.close();
+            // out.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
