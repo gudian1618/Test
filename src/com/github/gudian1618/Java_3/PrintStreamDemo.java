@@ -17,10 +17,10 @@ import java.io.*;
 
 public class PrintStreamDemo {
 
-    private static void CharPrint() {
+    private static void charPrint() {
         try {
             File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
-                "/gudian1618/Java_3/lianxi4");
+                "/gudian1618/Java_3/lianxi4.txt");
             Writer out = new FileWriter(file);
             // 加缓存
             BufferedWriter bos = new BufferedWriter(out);
@@ -38,7 +38,8 @@ public class PrintStreamDemo {
 
     private static void bytePrint() {
         try {
-            File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
+            File file = new File("/Users/zyd/IdeaProjects/Test/src/com" +
+                "/github" +
                 "/gudian1618/Java_3/lianxi4");
             OutputStream out = new FileOutputStream(file);
             // 加缓存
@@ -54,6 +55,7 @@ public class PrintStreamDemo {
     }
 
     public static void main(String[] args) {
-
+        bytePrint();
+        charPrint();
     }
 }
