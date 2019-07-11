@@ -40,7 +40,7 @@ public class PrintStreamDemo {
         try {
             File file = new File("/Users/zyd/IdeaProjects/Test/src/com" +
                 "/github" +
-                "/gudian1618/Java_3/lianxi4");
+                "/gudian1618/Java_3/lianxi4.txt");
             OutputStream out = new FileOutputStream(file);
             // 加缓存
             BufferedOutputStream bos = new BufferedOutputStream(out);
