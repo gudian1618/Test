@@ -20,7 +20,8 @@ public class PrintStreamDemo {
         OutputStream out = new FileOutputStream(file);
         BufferedOutputStream bos = new BufferedOutputStream(out);
         PrintStream ps = new PrintStream(bos);
-        ps.print();
+        ps.printf("小河流水天天哗啦啦");
+        ps.close();
 
     }
 
