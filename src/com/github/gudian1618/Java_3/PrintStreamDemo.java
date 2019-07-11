@@ -1,5 +1,7 @@
 package com.github.gudian1618.Java_3;
 
+import java.io.File;
+
 /**
  * @param
  * @author gudian1618
@@ -10,7 +12,11 @@ package com.github.gudian1618.Java_3;
 
 public class PrintStreamDemo {
 
-    private static void print
+    private static void bytePrint() {
+        File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
+            "/gudian1618/Java_3/lianxi4");
+
+    }
 
     public static void main(String[] args) {
 
