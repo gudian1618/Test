@@ -1,6 +1,6 @@
 package com.github.gudian1618.Java_3;
 
-import java.io.File;
+import java.io.*;
 
 /**
  * @param
@@ -8,6 +8,8 @@ import java.io.File;
  * @version 1.0
  * @date 2019-07-11 23:48
  * @description
+ * 打印流：很方便的进行输出
+ *
  */
 
 public class PrintStreamDemo {
@@ -15,6 +17,10 @@ public class PrintStreamDemo {
     private static void bytePrint() {
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
             "/gudian1618/Java_3/lianxi4");
+        OutputStream out = new FileOutputStream(file);
+        BufferedOutputStream bos = new BufferedOutputStream(out);
+        PrintStream ps = new PrintStream(bos);
+        ps.
 
     }
 
