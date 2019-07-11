@@ -20,7 +20,7 @@ public class PrintStreamDemo {
         OutputStream out = new FileOutputStream(file);
         BufferedOutputStream bos = new BufferedOutputStream(out);
         PrintStream ps = new PrintStream(bos);
-        ps.
+        ps.print();
 
     }
 
