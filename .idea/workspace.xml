@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="550">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -339,28 +339,7 @@
       <workItem from="1561729209006" duration="15000" />
       <workItem from="1561987657957" duration="13996000" />
       <workItem from="1562685342693" duration="2614000" />
-      <workItem from="1562859820502" duration="660000" />
-    </task>
-    <task id="LOCAL-00027" summary="新建">
-      <created>1560849676412</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1560849676412</updated>
-    </task>
-    <task id="LOCAL-00028" summary="新建">
-      <created>1560934072675</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1560934072675</updated>
-    </task>
-    <task id="LOCAL-00029" summary="新建">
-      <created>1560935306017</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1560935306017</updated>
+      <workItem from="1562859820502" duration="833000" />
     </task>
     <task id="LOCAL-00030" summary="新建">
       <created>1560936419407</created>
@@ -684,11 +663,32 @@
       <option name="project" value="LOCAL" />
       <updated>1562860290064</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="新建">
+      <created>1562860496921</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1562860496922</updated>
+    </task>
+    <task id="LOCAL-00077" summary="新建">
+      <created>1562860535191</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1562860535191</updated>
+    </task>
+    <task id="LOCAL-00078" summary="新建">
+      <created>1562860640612</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1562860640612</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68575000" />
+    <option name="totallyTimeSpent" value="68748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1298,8 +1298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="550">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
