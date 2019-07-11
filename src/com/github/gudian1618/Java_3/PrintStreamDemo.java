@@ -46,7 +46,7 @@ public class PrintStreamDemo {
             BufferedOutputStream bos = new BufferedOutputStream(out);
             // 增强打印功能
             PrintStream ps = new PrintStream(bos);
-            ps.printf("小河流水天天哗啦啦");
+            ps.println("小河流水天天哗啦啦");
             ps.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
