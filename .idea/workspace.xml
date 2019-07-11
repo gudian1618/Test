@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,15 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ByteStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CharStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -69,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="286">
               <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="594">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeSTreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java" />
       </list>
     </option>
   </component>
@@ -337,21 +337,8 @@
       <workItem from="1561554175613" duration="4941000" />
       <workItem from="1561729209006" duration="15000" />
       <workItem from="1561987657957" duration="13996000" />
-      <workItem from="1562685342693" duration="1882000" />
-    </task>
-    <task id="LOCAL-00023" summary="新建">
-      <created>1560848013794</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1560848013794</updated>
-    </task>
-    <task id="LOCAL-00024" summary="新建">
-      <created>1560848396491</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1560848396491</updated>
+      <workItem from="1562685342693" duration="2614000" />
+      <workItem from="1562859820502" duration="306000" />
     </task>
     <task id="LOCAL-00025" summary="新建">
       <created>1560848776786</created>
@@ -682,11 +669,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562687172364</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="新建">
+      <created>1562687252404</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1562687252404</updated>
+    </task>
+    <task id="LOCAL-00073" summary="新建">
+      <created>1562687541966</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1562687541966</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67183000" />
+    <option name="totallyTimeSpent" value="68221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1258,6 +1259,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1274,23 +1288,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi3.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
