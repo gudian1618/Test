@@ -1,8 +1,6 @@
 package com.github.gudian1618.Java_3;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
+import java.io.*;
 
 /**
  * @param
@@ -19,7 +17,16 @@ public class DataStreamDemo {
     private static void write() {
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
             "/gudian1618/Java_3/lianxi5.txt");
-        OutputStream out = new FileOutputStream(file);
+        try {
+            OutputStream out = new FileOutputStream(file);
+            BufferedOutputStream bos = new BufferedOutputStream(out);
+            DataOutputStream dos = new DataOutputStream(bos);
+            dos.writeInt(10);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
