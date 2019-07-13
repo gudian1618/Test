@@ -14,6 +14,26 @@ import java.io.*;
 
 public class DataStreamDemo {
 
+    private static void read() {
+        File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
+            "/gudian1618/Java_3/lianxi5.txt");
+        try {
+            InputStream in = new FileInputStream(file);
+            BufferedInputStream bis = new BufferedInputStream(in);
+            DataInputStream dis = new DataInputStream(bis);
+            // 写入4个字节
+            int num = dis.readInt();
+            // 写入一个字节
+            byte b = dis.readByte();
+            String s = dis.readUTF();
+            dis.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static void write() {
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
             "/gudian1618/Java_3/lianxi5.txt");
@@ -36,5 +56,6 @@ public class DataStreamDemo {
 
     public static void main(String[] args) {
         write();
+        read();
     }
 }
