@@ -21,7 +21,12 @@ public class DataStreamDemo {
             OutputStream out = new FileOutputStream(file);
             BufferedOutputStream bos = new BufferedOutputStream(out);
             DataOutputStream dos = new DataOutputStream(bos);
+            // 写入4个字节
             dos.writeInt(10);
+            // 写入一个字节
+            dos.writeByte(1);
+            dos.writeUTF("中");
+            dos.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -30,6 +35,6 @@ public class DataStreamDemo {
     }
 
     public static void main(String[] args) {
-
+        write();
     }
 }
