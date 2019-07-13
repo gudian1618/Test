@@ -9,7 +9,7 @@ import java.io.*;
  * @date 2019-07-14 01:24
  * @description
  * 数据流：
- * 与机器无关的操作JAVA的基本数据类型
+ * 与机器无关的操作JAVA的基本数据类型,文件数据流经常用到
  */
 
 public class DataStreamDemo {
