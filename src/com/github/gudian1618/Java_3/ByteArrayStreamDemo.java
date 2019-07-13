@@ -9,6 +9,8 @@ import java.io.ByteArrayOutputStream;
  * @version 1.0
  * @date 2019-07-14 00:52
  * @description
+ * 字节数组流：
+ * 基于内存操作，内部维护着一个字节数组，我们可以利用流的读取机制来处理字符串，无需关闭。
  */
 
 public class ByteArrayStreamDemo {
