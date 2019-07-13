@@ -13,9 +13,15 @@ import java.io.ByteArrayInputStream;
 public class ByteArrayStreamDemo {
 
     private static void byteArray() {
-        String s = "1234567890gfdgfds(*$#@&^%^&SSFD";
-        ByteArrayInputStream bis = new ByteArrayInputStream(s.getBytes());
 
+        String s = "1234567890gfdgfds(*$#@&^%^&SSFD";
+        ByteArrayInputStream bais = new ByteArrayInputStream(s.getBytes());
+        int curr = -1;
+        while ((curr=bais.read())!=-1) {
+            if ((curr>=65 && curr <=) || (curr>=97 && curr<=122)) {
+
+            }
+        }
     }
 
     public static void main(String[] args) {
