@@ -26,6 +26,7 @@ public class DataStreamDemo {
             // 写入一个字节
             byte b = dis.readByte();
             String s = dis.readUTF();
+            System.out.println(num+","+b+","+s);
             dis.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
