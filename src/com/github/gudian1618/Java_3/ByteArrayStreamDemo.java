@@ -24,10 +24,12 @@ public class ByteArrayStreamDemo {
                 baos.write(curr);
             }
         }
+        // 此时无需关闭，原因，字节数组流是基于内存的操作
+        System.out.println(baos.toString());
     }
 
     public static void main(String[] args) {
-
+        byteArray();
     }
 
 }
