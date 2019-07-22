@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="585">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -185,8 +185,11 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tmooc_javase" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -216,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomAccessFileDemo">
+  <component name="RunManager" selected="Application.BufferStreamDemo">
     <configuration name="BufferStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.BufferStreamDemo" />
       <module name="Test" />
@@ -284,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BufferStreamDemo" />
         <item itemvalue="Application.RandomAccessFileDemo" />
         <item itemvalue="Application.DataStreamDemo" />
         <item itemvalue="Application.ByteArrayStreamDemo" />
         <item itemvalue="Application.PrintStreamDemo" />
-        <item itemvalue="Application.BufferStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -335,21 +338,7 @@
       <workItem from="1563043953068" duration="168000" />
       <workItem from="1563044137718" duration="1565000" />
       <workItem from="1563046298513" duration="411000" />
-      <workItem from="1563719082199" duration="1522000" />
-    </task>
-    <task id="LOCAL-00050" summary="新建">
-      <created>1562164543290</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1562164543291</updated>
-    </task>
-    <task id="LOCAL-00051" summary="新建">
-      <created>1562164589404</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1562164589404</updated>
+      <workItem from="1563719082199" duration="2483000" />
     </task>
     <task id="LOCAL-00052" summary="新建">
       <created>1562165469839</created>
@@ -680,11 +669,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563779705523</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="新建">
+      <created>1563779911498</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1563779911498</updated>
+    </task>
+    <task id="LOCAL-00100" summary="新建">
+      <created>1563780211167</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1563780211167</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77048000" />
+    <option name="totallyTimeSpent" value="78009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1335,8 +1338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="585">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
         </state>
       </provider>
     </entry>

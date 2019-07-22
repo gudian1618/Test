@@ -18,10 +18,25 @@ import java.io.*;
  * 1、加入字符缓存流，增强读取功能readline
  * 2、更高效的读取数据
  * FileReader:内部使用InputStreamReader（），解码过程byte->char,默认大小8k
+ * BufferReader：默认缓存大小8K，但可以手动指定缓存大小，把数据进接到缓存中，减少每次转换过程，效率更高
  *
  */
 
 public class BufferStreamDemo {
+
+    private static void charWriter() {
+        File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
+            "/gudian1618/Java_3/lianxi7.txt");
+        try {
+            Writer writer = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(writer);
+            bw.write("村花到我家");
+            bw.flush();
+            bw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     private static void charReader() {
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
