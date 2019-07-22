@@ -1,14 +1,18 @@
 package com.github.gudian1618.Java_3;
 
+import java.io.Serializable;
+
 /**
  * @param
  * @author gudian1618
  * @version 1.0
  * @date 2019-07-22 15:45
  * @description
+ * 如果一个类需要被序列化，该类必须实现Serializable接口
+ * 就是一个标志接口，没有任何定义，为了告诉JVM该类对象可以被序列化
  */
 
-public class Dog {
+public class Dog implements Serializable {
 
     private String name;
     private int age;
