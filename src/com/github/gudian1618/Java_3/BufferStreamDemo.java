@@ -13,6 +13,12 @@ import java.io.*;
  * BufferOutputStream 内部默认的缓存大小是8KB，每次写入时存储到缓存中的byte
  * 数组中，当数组存满时，会把数组中的数据写入到文件中，并且缓存下标归零。
  * 可以通过实现抽象类cloneable，在try语句中直接写条件，自动关闭。
+ *
+ * 字符流
+ * 1、加入字符缓存流，增强读取功能readline
+ * 2、更高效的读取数据
+ * FileReader:内部使用InputStreamReader（），解码过程byte->char,默认大小8k
+ *
  */
 
 public class BufferStreamDemo {
