@@ -13,6 +13,7 @@ import java.io.*;
 
 public class ObjectStreamDemo {
 
+//    java.io.NotSerializableException 没有序列化异常
     private static void writerObject() {
         Dog dog = new Dog("wangwang",2,"母");
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
@@ -20,6 +21,9 @@ public class ObjectStreamDemo {
         try {
             OutputStream out = new FileOutputStream(file);
             ObjectOutputStream oos = new ObjectOutputStream(out);
+            oos.writeObject(dog);
+            oos.close();
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -28,6 +32,6 @@ public class ObjectStreamDemo {
     }
 
     public static void main(String[] args) {
-
+        writerObject();
     }
 }
