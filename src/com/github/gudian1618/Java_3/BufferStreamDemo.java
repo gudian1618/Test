@@ -19,6 +19,7 @@ import java.io.*;
  * 2、更高效的读取数据
  * FileReader:内部使用InputStreamReader（），解码过程byte->char,默认大小8k
  * BufferReader：默认缓存大小8K，但可以手动指定缓存大小，把数据进接到缓存中，减少每次转换过程，效率更高
+ * BufferedWriter 原理同上
  *
  */
 
@@ -98,5 +99,7 @@ public class BufferStreamDemo {
     public static void main(String[] args) {
         byteWriter();
         byteReader();
+        charWriter();
+        charReader();
     }
 }
