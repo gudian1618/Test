@@ -17,6 +17,12 @@ import java.io.*;
 
 public class BufferStreamDemo {
 
+    private static void charReader() {
+        File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
+            "/gudian1618/Java_3/lianxi7.txt");
+        Reader reader = new FileReader(file);
+    }
+
     private static void byteReader() {
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
             "/gudian1618/Java_3/lianxi3.txt");
