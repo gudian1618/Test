@@ -20,7 +20,22 @@ public class BufferStreamDemo {
     private static void charReader() {
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
             "/gudian1618/Java_3/lianxi7.txt");
-        Reader reader = new FileReader(file);
+        try {
+            Reader reader = new FileReader(file);
+            // 为字符流提供缓冲，以达到高效读取的目的
+            BufferedReader br = new BufferedReader(reader);
+            char[] cs = new char[1024];
+            int len = -1;
+            while ((len=br.read(cs))!=-1) {
+                System.out.println(new String(cs,0,len
+                ));
+                br.close();
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void byteReader() {
