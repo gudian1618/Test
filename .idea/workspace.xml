@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FilleDivisionMergeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectStreamDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,17 +54,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="1210">
               <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="440">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FilleDivisionMergeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -72,23 +81,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
+            <state relative-caret-position="506">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
                 <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/DataStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="990">
               <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
             </state>
           </provider>
@@ -127,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/RandomAccessFileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="462">
               <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -185,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectOutputStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Dog.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FilleDivisionMergeDemo.java" />
       </list>
     </option>
   </component>
@@ -376,14 +374,8 @@
       <workItem from="1563043953068" duration="168000" />
       <workItem from="1563044137718" duration="1565000" />
       <workItem from="1563046298513" duration="411000" />
-      <workItem from="1563719082199" duration="5859000" />
-    </task>
-    <task id="LOCAL-00060" summary="新建">
-      <created>1562424666026</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1562424666026</updated>
+      <workItem from="1563719082199" duration="6207000" />
+      <workItem from="1563893236570" duration="209000" />
     </task>
     <task id="LOCAL-00061" summary="新建">
       <created>1562424801951</created>
@@ -721,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563783602804</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="新建">
+      <created>1563880592317</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1563880592317</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81385000" />
+    <option name="totallyTimeSpent" value="81942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,6 +765,7 @@
       <window_info anchor="bottom" id="Problems" order="17" weight="0.32949308" />
       <window_info anchor="bottom" id="Statistic" order="18" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="19" />
+      <window_info anchor="right" id="Alibaba Log Console" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24932003" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496" />
@@ -800,239 +800,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/com.github.gudian1618.Java_1">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.github.gudian1618.Java_1</OriginalElement>
-          <nodes>
-            <node x="546.0" y="1283.0">com.github.gudian1618.Java_1.Test_6</node>
-            <node x="771.0" y="1283.0">com.github.gudian1618.Java_1.Test_5</node>
-            <node x="782.0" y="1152.0">com.github.gudian1618.Java_1.Test_4</node>
-            <node x="996.0" y="1283.0">com.github.gudian1618.Java_1.Test_3</node>
-            <node x="1221.0" y="1283.0">com.github.gudian1618.Java_1.Test_array</node>
-            <node x="0.0" y="1388.0">com.github.gudian1618.Java_1.Test_2</node>
-            <node x="225.0" y="1388.0">com.github.gudian1618.Java_1.Test_1</node>
-            <node x="0.0" y="1283.0">com.github.gudian1618.Java_1.ProductFactory</node>
-            <node x="1277.0" y="832.0">com.github.gudian1618.Java_1.Computer</node>
-            <node x="450.0" y="1388.0">com.github.gudian1618.Java_1.JDK7Demo</node>
-            <node x="573.0" y="832.0">com.github.gudian1618.Java_1.ActionProxy</node>
-            <node x="375.0" y="0.0">com.github.gudian1618.Java_1.IEat</node>
-            <node x="0.0" y="1047.0">com.github.gudian1618.Java_1.PowerBImpl</node>
-            <node x="900.0" y="1388.0">com.github.gudian1618.Java_1.LoginDemo</node>
-            <node x="638.0" y="937.0">com.github.gudian1618.Java_1.Test13</node>
-            <node x="1350.0" y="1388.0">com.github.gudian1618.Java_1.Test12</node>
-            <node x="0.0" y="1493.0">com.github.gudian1618.Java_1.Test11</node>
-            <node x="932.0" y="832.0">com.github.gudian1618.Java_1.PowerAImpl</node>
-            <node x="225.0" y="1493.0">com.github.gudian1618.Java_1.Test10</node>
-            <node x="624.5" y="0.0">com.github.gudian1618.Java_1.Animal1</node>
-            <node x="484.75" y="722.0">com.github.gudian1618.Java_1.Action</node>
-            <node x="36.0" y="376.0">com.github.gudian1618.Java_1.Dog</node>
-            <node x="280.0" y="1283.0">com.github.gudian1618.Java_1.UserServiceNew</node>
-            <node x="262.75" y="136.0">com.github.gudian1618.Java_1.ISleep</node>
-            <node x="450.0" y="1493.0">com.github.gudian1618.Java_1.Test8</node>
-            <node x="675.0" y="1388.0">com.github.gudian1618.Java_1.Test9</node>
-            <node x="1071.0" y="937.0">com.github.gudian1618.Java_1.Cosmetic</node>
-            <node x="1045.0" y="481.0">com.github.gudian1618.Java_1.FinalClass</node>
-            <node x="838.5" y="618.0">com.github.gudian1618.Java_1.UserService</node>
-            <node x="838.0" y="481.0">com.github.gudian1618.Java_1.BaseService</node>
-            <node x="324.0" y="481.0">com.github.gudian1618.Java_1.BaseManager</node>
-            <node x="395.0" y="832.0">com.github.gudian1618.Java_1.UserAction</node>
-            <node x="1160.0" y="163.0">com.github.gudian1618.Java_1.SortCosmeticManager</node>
-            <node x="1101.0" y="1598.0">com.github.gudian1618.Java_1.Constant</node>
-            <node x="225.0" y="1598.0">com.github.gudian1618.Java_1.Student1</node>
-            <node x="1044.5" y="0.0">com.github.gudian1618.Java_1.CosmeticManager</node>
-            <node x="200.0" y="937.0">com.github.gudian1618.Java_1.User</node>
-            <node x="236.0" y="13.0">com.github.gudian1618.Java_1.IRun</node>
-            <node x="185.0" y="832.0">com.github.gudian1618.Java_1.FileSave</node>
-            <node x="1125.0" y="1493.0">com.github.gudian1618.Java_1.Test1</node>
-            <node x="1012.0" y="1152.0">com.github.gudian1618.Java_1.Test2</node>
-            <node x="1125.0" y="1388.0">com.github.gudian1618.Java_1.Test3</node>
-            <node x="1350.0" y="1493.0">com.github.gudian1618.Java_1.Test4</node>
-            <node x="263.0" y="1152.0">com.github.gudian1618.Java_1.Singleton1</node>
-            <node x="0.0" y="188.0">com.github.gudian1618.Java_1.AnimalFunction</node>
-            <node x="92.5" y="722.0">com.github.gudian1618.Java_1.ISave</node>
-            <node x="526.0" y="1152.0">com.github.gudian1618.Java_1.Student</node>
-            <node x="0.0" y="1598.0">com.github.gudian1618.Java_1.Test5</node>
-            <node x="0.0" y="1152.0">com.github.gudian1618.Java_1.Singleton2</node>
-            <node x="594.0" y="481.0">com.github.gudian1618.Java_1.Test_8</node>
-            <node x="675.0" y="1493.0">com.github.gudian1618.Java_1.Test6</node>
-            <node x="1281.0" y="1598.0">com.github.gudian1618.Java_1.Test_7</node>
-            <node x="900.0" y="1493.0">com.github.gudian1618.Java_1.Test7</node>
-            <node x="779.0" y="832.0">com.github.gudian1618.Java_1.Adapter</node>
-            <node x="148.0" y="591.0">com.github.gudian1618.Java_1.HuskyDog</node>
-            <node x="729.0" y="1598.0">com.github.gudian1618.Java_1.Dog4</node>
-            <node x="1055.0" y="618.0">com.github.gudian1618.Java_1.SubClass</node>
-            <node x="80.25" y="481.0">com.github.gudian1618.Java_1.Dog1</node>
-            <node x="342.5" y="617.0">com.github.gudian1618.Java_1.UserManager</node>
-            <node x="0.0" y="832.0">com.github.gudian1618.Java_1.NetSave</node>
-            <node x="863.0" y="937.0">com.github.gudian1618.Java_1.Outer</node>
-            <node x="625.5" y="110.0">com.github.gudian1618.Java_1.Person</node>
-            <node x="1128.0" y="832.0">com.github.gudian1618.Java_1.Phone</node>
-            <node x="891.0" y="1598.0">com.github.gudian1618.Java_1.MyException</node>
-            <node x="406.0" y="937.0">com.github.gudian1618.Java_1.NodeManger</node>
-            <node x="879.0" y="163.0">com.github.gudian1618.Java_1.ImportCosmeticManager</node>
-            <node x="1237.0" y="1152.0">com.github.gudian1618.Java_1.AssertDemo</node>
-            <node x="860.0" y="722.0">com.github.gudian1618.Java_1.IPowerA</node>
-            <node x="2.5" y="937.0">com.github.gudian1618.Java_1.IPowerB</node>
-            <node x="1204.0" y="722.0">com.github.gudian1618.Java_1.Product</node>
-            <node x="701.0" y="246.0">com.github.gudian1618.Java_1.Woman</node>
-            <node x="567.0" y="1598.0">com.github.gudian1618.Java_1.Eat</node>
-            <node x="405.0" y="1598.0">com.github.gudian1618.Java_1.Cat</node>
-            <node x="0.0" y="591.0">com.github.gudian1618.Java_1.HomeDog</node>
-            <node x="334.125" y="246.0">com.github.gudian1618.Java_1.Girl</node>
-            <node x="1247.0" y="937.0">com.github.gudian1618.Java_1.Cat1</node>
-            <node x="548.0" y="246.0">com.github.gudian1618.Java_1.Man</node>
-            <node x="30.5" y="0.0">com.github.gudian1618.Java_1.Animal</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.github.gudian1618.Java_1.Adapter" target="com.github.gudian1618.Java_1.IPowerA">
-              <point x="0.0" y="-30.0" />
-              <point x="845.5" y="807.0" />
-              <point x="893.25" y="807.0" />
-              <point x="-33.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Girl" target="com.github.gudian1618.Java_1.ISleep">
-              <point x="-32.75" y="-56.0" />
-              <point x="366.875" y="221.0" />
-              <point x="328.25" y="221.0" />
-              <point x="0.0" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.NetSave" target="com.github.gudian1618.Java_1.ISave">
-              <point x="0.0" y="-30.0" />
-              <point x="82.5" y="807.0" />
-              <point x="133.75" y="807.0" />
-              <point x="-41.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.AnimalFunction" target="com.github.gudian1618.Java_1.Animal">
-              <point x="0.0" y="-69.0" />
-              <point x="0.0" y="69.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.FileSave" target="com.github.gudian1618.Java_1.ISave">
-              <point x="0.0" y="-30.0" />
-              <point x="267.5" y="807.0" />
-              <point x="216.25" y="807.0" />
-              <point x="41.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.ImportCosmeticManager" target="com.github.gudian1618.Java_1.CosmeticManager">
-              <point x="0.0" y="-30.0" />
-              <point x="1009.5" y="138.0" />
-              <point x="1094.75" y="138.0" />
-              <point x="-50.25" y="56.5" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.PowerAImpl" target="com.github.gudian1618.Java_1.IPowerA">
-              <point x="0.0" y="-30.0" />
-              <point x="1007.5" y="807.0" />
-              <point x="959.75" y="807.0" />
-              <point x="33.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.UserService" target="com.github.gudian1618.Java_1.BaseService">
-              <point x="0.0" y="-17.0" />
-              <point x="0.0" y="43.5" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.HuskyDog" target="com.github.gudian1618.Java_1.Dog1">
-              <point x="0.0" y="-43.0" />
-              <point x="213.5" y="566.0" />
-              <point x="168.0" y="566.0" />
-              <point x="29.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Girl" target="com.github.gudian1618.Java_1.IEat">
-              <point x="32.75" y="-56.0" />
-              <point x="432.375" y="221.0" />
-              <point x="471.0" y="221.0" />
-              <point x="32.0" y="43.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.ISleep" target="com.github.gudian1618.Java_1.IEat">
-              <point x="32.75" y="-30.0" />
-              <point x="361.0" y="111.0" />
-              <point x="407.0" y="111.0" />
-              <point x="-32.0" y="43.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Computer" target="com.github.gudian1618.Java_1.Product">
-              <point x="0.0" y="-30.0" />
-              <point x="1344.5" y="807.0" />
-              <point x="1300.75" y="807.0" />
-              <point x="32.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.ActionProxy" target="com.github.gudian1618.Java_1.Action">
-              <point x="0.0" y="-30.0" />
-              <point x="653.5" y="807.0" />
-              <point x="603.25" y="807.0" />
-              <point x="39.5" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Phone" target="com.github.gudian1618.Java_1.Product">
-              <point x="0.0" y="-30.0" />
-              <point x="1192.5" y="807.0" />
-              <point x="1236.25" y="807.0" />
-              <point x="-32.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.HomeDog" target="com.github.gudian1618.Java_1.Dog1">
-              <point x="0.0" y="-43.0" />
-              <point x="64.0" y="566.0" />
-              <point x="109.5" y="566.0" />
-              <point x="-29.25" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.SortCosmeticManager" target="com.github.gudian1618.Java_1.CosmeticManager">
-              <point x="0.0" y="-30.0" />
-              <point x="1280.5" y="138.0" />
-              <point x="1195.25" y="138.0" />
-              <point x="50.25" y="56.5" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Person" target="com.github.gudian1618.Java_1.Animal1">
-              <point x="0.0" y="-43.0" />
-              <point x="0.0" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.UserAction" target="com.github.gudian1618.Java_1.Action">
-              <point x="0.0" y="-30.0" />
-              <point x="474.0" y="807.0" />
-              <point x="524.25" y="807.0" />
-              <point x="-39.5" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Dog" target="com.github.gudian1618.Java_1.AnimalFunction">
-              <point x="0.0" y="-30.0" />
-              <point x="0.0" y="69.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.SubClass" target="com.github.gudian1618.Java_1.FinalClass">
-              <point x="0.0" y="-17.0" />
-              <point x="0.0" y="43.5" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Woman" target="com.github.gudian1618.Java_1.Person">
-              <point x="0.0" y="-43.0" />
-              <point x="767.5" y="221.0" />
-              <point x="723.75" y="221.0" />
-              <point x="32.75" y="43.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.UserManager" target="com.github.gudian1618.Java_1.BaseManager">
-              <point x="0.0" y="-30.0" />
-              <point x="0.0" y="43.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.ISleep" target="com.github.gudian1618.Java_1.IRun">
-              <point x="-32.75" y="-30.0" />
-              <point x="0.0" y="30.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.Man" target="com.github.gudian1618.Java_1.Person">
-              <point x="0.0" y="-43.0" />
-              <point x="614.5" y="221.0" />
-              <point x="658.25" y="221.0" />
-              <point x="-32.75" y="43.0" />
-            </edge>
-            <edge source="com.github.gudian1618.Java_1.PowerBImpl" target="com.github.gudian1618.Java_1.IPowerB">
-              <point x="0.0" y="-30.0" />
-              <point x="0.0" y="30.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7859154929577464" x="34.0" y="285.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/StringDemo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1314,6 +1081,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1333,14 +1118,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/DataStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="990">
           <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/RandomAccessFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="462">
           <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1348,40 +1133,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FilleDivisionMergeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
