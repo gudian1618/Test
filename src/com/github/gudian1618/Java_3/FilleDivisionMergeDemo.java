@@ -1,5 +1,7 @@
 package com.github.gudian1618.Java_3;
 
+import java.io.File;
+
 /**
  * @param
  * @author gudian1618
@@ -21,6 +23,9 @@ public class FilleDivisionMergeDemo {
     }
 
     public static void main(String[] args) {
+
+        File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
+            "/gudian1618/Java_3/a.mp4");
 
     }
 
