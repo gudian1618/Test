@@ -13,8 +13,14 @@ import java.io.File;
 public class FilleDivisionMergeDemo {
 
     // 文件的分割
-    private static void division() {
+    private static void division(File targetFile, long cutsize) {
 
+        if (targetFile==null) return;
+        // 计算总分割的文件数
+        int num = targetFile.length()%cutsize==0?
+            (int)(targetFile.length()/cutsize):
+            (int)(targetFile.length()/cutsize+1);
+        // 构造一个文件输入流
     }
 
     // 文件的合并
