@@ -13,6 +13,7 @@ import java.io.*;
  * 反序列化
  * 从文件中，把文件的内容读取出来还原成对象
  *
+ *
  */
 
 public class ObjectStreamDemo {
@@ -23,8 +24,9 @@ public class ObjectStreamDemo {
         try {
             InputStream in = new FileInputStream(file);
             ObjectInputStream ois = new ObjectInputStream(in);
-            Dog dog = (Dog)ois.readObject();
+            Dog[] dog = (Dog[])ois.readObject();
             ois.close();
+            System.out.println(dog);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -38,14 +40,16 @@ public class ObjectStreamDemo {
 //    java.io.NotSerializableException 没有序列化异常
     private static void writerObject() {
         Dog dog = new Dog("wangwang",2,"母");
+        Dog dog1 = new Dog("2哈",3,"公");
+        Dog[] dogs = {dog, dog1};
         File file = new File("/Users/zyd/IdeaProjects/Test/src/com/github" +
             "/gudian1618/Java_3/dog.obj");
         try {
             OutputStream out = new FileOutputStream(file);
             ObjectOutputStream oos = new ObjectOutputStream(out);
-            oos.writeObject(dog);
+            oos.writeObject(dogs);
             oos.close();
-            System.out.println(dog);
+            System.out.println(dogs);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
