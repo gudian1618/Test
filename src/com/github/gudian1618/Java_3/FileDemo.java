@@ -12,8 +12,7 @@ import java.util.Date;
  * @author gudian1618
  * @version v1.0
  * @date 2019/6/18 16:59
- * @description
- * File类
+ * @description File类
  */
 public class FileDemo {
     
@@ -33,12 +32,12 @@ public class FileDemo {
             }
         }
         // f1.isFile():是否是文件
-        System.out.println("是否为文件夹："+f1.isDirectory());
+        System.out.println("是否为文件夹：" + f1.isDirectory());
         // 需要手动建立新的文件夹my，且删除文件夹的时候必须保证文件夹是空的才可以删除，里面有文件无法删除。
         File f2 = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/my");
         File f3 = new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3");
-        System.out.println("是否为文件夹："+f2.isDirectory());
-
+        System.out.println("是否为文件夹：" + f2.isDirectory());
+        
         boolean b = f2.delete();
         System.out.println(b);
         
@@ -48,16 +47,16 @@ public class FileDemo {
         
         // 列出当前目录下所有文件，以file对象返回
         File[] fs = f3.listFiles();
-        for(File f: fs) {
-            System.out.println("length:"+f.length());
-            System.out.println("name:"+f.getName());
-            System.out.println("相对路径:"+f.getPath());
-            System.out.println("绝对路径:"+f.getAbsolutePath());
-            System.out.println("是否为隐藏文件:"+f.isHidden());
-            System.out.println("是否为可读文件:"+f.canRead());
+        for (File f : fs) {
+            System.out.println("length:" + f.length());
+            System.out.println("name:" + f.getName());
+            System.out.println("相对路径:" + f.getPath());
+            System.out.println("绝对路径:" + f.getAbsolutePath());
+            System.out.println("是否为隐藏文件:" + f.isHidden());
+            System.out.println("是否为可读文件:" + f.canRead());
             Date date = new Date(f.lastModified());
             DateFormat df = new SimpleDateFormat("HH:mm:ss");
-            System.out.println("文件最后的修改时间:"+df.format(date));
+            System.out.println("文件最后的修改时间:" + df.format(date));
             System.out.println("---------------------------");
         }
         
@@ -71,7 +70,7 @@ public class FileDemo {
         f5.renameTo(new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/dabin1"));
         
         f5.renameTo(new File("F:/ProgramData/Test/src/com/github/gudian1618/Java_3/temp/dabin"));
-        
+
 //        File[] files = f5.listFiles(new FileFilter() {
 //            @Override
 //            public boolean accept(File pathname) {
@@ -79,11 +78,11 @@ public class FileDemo {
 //            }
 //        });
         // lambda表达式实现
-        File[] files = f5.listFiles((pathname)->pathname.getName().endsWith(".txt"));
+        File[] files = f5.listFiles((pathname) -> pathname.getName().endsWith(".txt"));
         System.out.println("----------");
-        for (File f:files) {
+        for (File f : files) {
             System.out.println(f.getName());
         }
-    
+        
     }
 }
