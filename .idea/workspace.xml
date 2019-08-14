@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" afterDir="false" />
     </list>
     <ignored path="F:\ProgramData\Test\.idea\shelf/" />
@@ -121,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+            <state relative-caret-position="537">
+              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
@@ -161,10 +160,10 @@
               <notes />
               <edges>
                 <edge source="com.github.gudian1618.Java_3.ObjectStreamDemo" target="com.github.gudian1618.Java_3.Dog">
-                  <point x="-58.75" y="-57.0" />
-                  <point x="58.75" y="219.0" />
-                  <point x="63.5" y="219.0" />
-                  <point x="-54.0" y="97.0" />
+                  <point x="58.75" y="-57.0" />
+                  <point x="176.25" y="219.0" />
+                  <point x="171.5" y="219.0" />
+                  <point x="54.0" y="97.0" />
                 </edge>
               </edges>
               <settings layout="Hierarchic Group" zoom="0.7777777777777778" x="66.0" y="298.57142857142856" />
@@ -471,14 +470,7 @@
       <workItem from="1563719082199" duration="6207000" />
       <workItem from="1563893236570" duration="716000" />
       <workItem from="1565665208023" duration="3729000" />
-      <workItem from="1565740889399" duration="3206000" />
-    </task>
-    <task id="LOCAL-00068" summary="新建">
-      <created>1562686279764</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1562686279764</updated>
+      <workItem from="1565740889399" duration="3380000" />
     </task>
     <task id="LOCAL-00069" summary="新建">
       <created>1562686389906</created>
@@ -816,11 +808,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565752100980</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="新建">
+      <created>1565753129606</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1565753129606</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89947000" />
+    <option name="totallyTimeSpent" value="90121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,7 +834,7 @@
     <frame x="880" y="0" width="1047" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625641" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24830262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1275,10 +1274,10 @@
           <notes />
           <edges>
             <edge source="com.github.gudian1618.Java_3.ObjectStreamDemo" target="com.github.gudian1618.Java_3.Dog">
-              <point x="-58.75" y="-57.0" />
-              <point x="58.75" y="219.0" />
-              <point x="63.5" y="219.0" />
-              <point x="-54.0" y="97.0" />
+              <point x="58.75" y="-57.0" />
+              <point x="176.25" y="219.0" />
+              <point x="171.5" y="219.0" />
+              <point x="54.0" y="97.0" />
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="0.7777777777777778" x="66.0" y="298.57142857142856" />
@@ -1296,8 +1295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        <state relative-caret-position="537">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
