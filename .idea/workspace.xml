@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" afterDir="false" />
     </list>
     <ignored path="F:\ProgramData\Test\.idea\shelf/" />
@@ -39,15 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,15 +109,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+            <state relative-caret-position="633">
+              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
                 <element signature="e#3136#3149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;class#CompressionAndDecompressionDemo#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,6 +249,7 @@
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FilleDivisionMergeDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java" />
         <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java" />
       </list>
     </option>
   </component>
@@ -262,8 +267,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="880" />
-    <option name="width" value="1047" />
+    <option name="x" value="753" />
+    <option name="width" value="1174" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -470,14 +475,7 @@
       <workItem from="1563719082199" duration="6207000" />
       <workItem from="1563893236570" duration="716000" />
       <workItem from="1565665208023" duration="3729000" />
-      <workItem from="1565740889399" duration="3380000" />
-    </task>
-    <task id="LOCAL-00069" summary="新建">
-      <created>1562686389906</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1562686389906</updated>
+      <workItem from="1565740889399" duration="4398000" />
     </task>
     <task id="LOCAL-00070" summary="新建">
       <created>1562686616827</created>
@@ -815,11 +813,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565753129606</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="新建">
+      <created>1565753320571</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1565753320571</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90121000" />
+    <option name="totallyTimeSpent" value="91139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,10 +836,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="880" y="0" width="1047" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="753" y="0" width="1174" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24830262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22107081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -928,13 +932,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_1/Test_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1295,12 +1292,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+        <state relative-caret-position="633">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
             <element signature="e#3136#3149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#CompressionAndDecompressionDemo#0" expanded="true" />
           </folding>
         </state>
       </provider>

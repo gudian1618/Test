@@ -66,7 +66,7 @@ public class FileDivisionMergeDemo {
         SequenceInputStream sis = new SequenceInputStream(es);
         try {
             BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\合并后的文件.avi"));
-    
+            // 具体读取业务
             byte[] bytes = new byte[1024];
             int len =-1;
             while ((len=sis.read(bytes))!=-1) {
