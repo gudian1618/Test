@@ -41,18 +41,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;class#FileDemo2#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="912">
@@ -133,11 +121,62 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+            <state relative-caret-position="441">
+              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
+                <element signature="e#3136#3149#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.github.gudian1618.Java_3">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.github.gudian1618.Java_3</OriginalElement>
+              <nodes>
+                <node x="227.0" y="961.0">com.github.gudian1618.Java_3.temp</node>
+                <node x="346.0" y="403.0">com.github.gudian1618.Java_3.ChangeStreamDemo</node>
+                <node x="0.0" y="562.0">com.github.gudian1618.Java_3.CharStreamDemo</node>
+                <node x="313.0" y="721.0">com.github.gudian1618.Java_3.FileDemo2</node>
+                <node x="0.0" y="961.0">com.github.gudian1618.Java_3.dabin</node>
+                <node x="258.0" y="562.0">com.github.gudian1618.Java_3.DataStreamDemo</node>
+                <node x="582.0" y="721.0">com.github.gudian1618.Java_3.CopyFileDemo</node>
+                <node x="324.0" y="854.0">com.github.gudian1618.Java_3.FileDemo</node>
+                <node x="0.0" y="721.0">com.github.gudian1618.Java_3.ByteArrayStreamDemo</node>
+                <node x="0.0" y="244.0">com.github.gudian1618.Java_3.ObjectStreamDemo</node>
+                <node x="516.0" y="562.0">com.github.gudian1618.Java_3.ByteStreamDemo</node>
+                <node x="557.0" y="854.0">com.github.gudian1618.Java_3.dabin1</node>
+                <node x="626.0" y="403.0">com.github.gudian1618.Java_3.PrintStreamDemo</node>
+                <node x="0.0" y="403.0">com.github.gudian1618.Java_3.FilleDivisionMergeDemo</node>
+                <node x="0.0" y="854.0">com.github.gudian1618.Java_3.RandomAccessFileDemo</node>
+                <node x="280.0" y="0.0">com.github.gudian1618.Java_3.BufferStreamDemo</node>
+                <node x="9.5" y="0.0">com.github.gudian1618.Java_3.Dog</node>
+                <node x="560.0" y="0.0">com.github.gudian1618.Java_3.FileDivisionMergeDemo</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.github.gudian1618.Java_3.ObjectStreamDemo" target="com.github.gudian1618.Java_3.Dog">
+                  <point x="-58.75" y="-57.0" />
+                  <point x="58.75" y="219.0" />
+                  <point x="63.5" y="219.0" />
+                  <point x="-54.0" y="97.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7777777777777778" x="66.0" y="298.57142857142856" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -224,8 +263,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="524" />
-    <option name="width" value="1403" />
+    <option name="x" value="880" />
+    <option name="width" value="1047" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -432,14 +471,7 @@
       <workItem from="1563719082199" duration="6207000" />
       <workItem from="1563893236570" duration="716000" />
       <workItem from="1565665208023" duration="3729000" />
-      <workItem from="1565740889399" duration="2182000" />
-    </task>
-    <task id="LOCAL-00067" summary="新建">
-      <created>1562686231503</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1562686231503</updated>
+      <workItem from="1565740889399" duration="3206000" />
     </task>
     <task id="LOCAL-00068" summary="新建">
       <created>1562686279764</created>
@@ -777,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565741113374</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="新建">
+      <created>1565752100980</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1565752100980</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88923000" />
+    <option name="totallyTimeSpent" value="89947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,10 +832,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="524" y="0" width="1403" height="1047" extended-state="0" />
+    <frame x="880" y="0" width="1047" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19250426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -890,17 +929,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_1/Test_5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -1219,12 +1247,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/com.github.gudian1618.Java_3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.github.gudian1618.Java_3</OriginalElement>
+          <nodes>
+            <node x="227.0" y="961.0">com.github.gudian1618.Java_3.temp</node>
+            <node x="346.0" y="403.0">com.github.gudian1618.Java_3.ChangeStreamDemo</node>
+            <node x="0.0" y="562.0">com.github.gudian1618.Java_3.CharStreamDemo</node>
+            <node x="313.0" y="721.0">com.github.gudian1618.Java_3.FileDemo2</node>
+            <node x="0.0" y="961.0">com.github.gudian1618.Java_3.dabin</node>
+            <node x="258.0" y="562.0">com.github.gudian1618.Java_3.DataStreamDemo</node>
+            <node x="582.0" y="721.0">com.github.gudian1618.Java_3.CopyFileDemo</node>
+            <node x="324.0" y="854.0">com.github.gudian1618.Java_3.FileDemo</node>
+            <node x="0.0" y="721.0">com.github.gudian1618.Java_3.ByteArrayStreamDemo</node>
+            <node x="0.0" y="244.0">com.github.gudian1618.Java_3.ObjectStreamDemo</node>
+            <node x="516.0" y="562.0">com.github.gudian1618.Java_3.ByteStreamDemo</node>
+            <node x="557.0" y="854.0">com.github.gudian1618.Java_3.dabin1</node>
+            <node x="626.0" y="403.0">com.github.gudian1618.Java_3.PrintStreamDemo</node>
+            <node x="0.0" y="403.0">com.github.gudian1618.Java_3.FilleDivisionMergeDemo</node>
+            <node x="0.0" y="854.0">com.github.gudian1618.Java_3.RandomAccessFileDemo</node>
+            <node x="280.0" y="0.0">com.github.gudian1618.Java_3.BufferStreamDemo</node>
+            <node x="9.5" y="0.0">com.github.gudian1618.Java_3.Dog</node>
+            <node x="560.0" y="0.0">com.github.gudian1618.Java_3.FileDivisionMergeDemo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.github.gudian1618.Java_3.ObjectStreamDemo" target="com.github.gudian1618.Java_3.Dog">
+              <point x="-58.75" y="-57.0" />
+              <point x="58.75" y="219.0" />
+              <point x="63.5" y="219.0" />
+              <point x="-54.0" y="97.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7777777777777778" x="66.0" y="298.57142857142856" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        <state relative-caret-position="441">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
+            <element signature="e#3136#3149#0" expanded="true" />
           </folding>
         </state>
       </provider>

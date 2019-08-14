@@ -1,6 +1,8 @@
 package com.github.gudian1618.Java_3;
 
 import java.io.*;
+import java.util.Enumeration;
+import java.util.Vector;
 
 /**
  * @author gudian1618
@@ -59,8 +61,16 @@ public class FileDivisionMergeDemo {
         }
     }
     
-    private static void merge() {
-    
+    private static void merge(Enumeration<InputStream> es) {
+        // 构造一个合并流
+        SequenceInputStream sis = new SequenceInputStream(es);
+        try {
+            BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\合并后的文件.avi"));
+            
+            
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
     
     public static void main(String[] args) {
@@ -74,6 +84,18 @@ public class FileDivisionMergeDemo {
             InputStream in3 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\3-temp-a.avi"));
             InputStream in4 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\4-temp-a.avi"));
             InputStream in5 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\5-temp-a.avi"));
+            
+            // 集合工具类，内部实现用了数组
+            Vector<InputStream> v = new Vector<InputStream>();
+            v.add(in1);
+            v.add(in2);
+            v.add(in3);
+            v.add(in4);
+            v.add(in5);
+    
+            Enumeration<InputStream> es = v.elements();
+            merge(es);
+            
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
