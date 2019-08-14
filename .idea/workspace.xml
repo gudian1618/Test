@@ -120,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="600">
               <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+            <state relative-caret-position="435">
+              <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
               <folding>
                 <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
               </folding>
@@ -224,8 +224,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="798" />
-    <option name="width" value="1129" />
+    <option name="x" value="737" />
+    <option name="width" value="1190" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -310,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectStreamDemo">
+  <component name="RunManager" selected="Application.FileDivisionMergeDemo">
     <configuration name="BufferStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.BufferStreamDemo" />
       <module name="Test" />
@@ -324,8 +324,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteArrayStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.ByteArrayStreamDemo" />
+    <configuration name="DataStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.DataStreamDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -337,8 +337,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.DataStreamDemo" />
+    <configuration name="FileDivisionMergeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.FileDivisionMergeDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -378,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileDivisionMergeDemo" />
         <item itemvalue="Application.ObjectStreamDemo" />
         <item itemvalue="Application.BufferStreamDemo" />
         <item itemvalue="Application.RandomAccessFileDemo" />
         <item itemvalue="Application.DataStreamDemo" />
-        <item itemvalue="Application.ByteArrayStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -431,14 +431,8 @@
       <workItem from="1563046298513" duration="411000" />
       <workItem from="1563719082199" duration="6207000" />
       <workItem from="1563893236570" duration="716000" />
-      <workItem from="1565665208023" duration="1801000" />
-    </task>
-    <task id="LOCAL-00065" summary="新建">
-      <created>1562685756091</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1562685756091</updated>
+      <workItem from="1565665208023" duration="3729000" />
+      <workItem from="1565740889399" duration="158000" />
     </task>
     <task id="LOCAL-00066" summary="新建">
       <created>1562685907833</created>
@@ -776,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565666364641</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="新建">
+      <created>1565667019558</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1565667019558</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84813000" />
+    <option name="totallyTimeSpent" value="86899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,10 +793,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="798" y="0" width="1129" height="1047" extended-state="0" />
+    <frame x="737" y="0" width="1190" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25786164" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19250426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -803,7 +804,7 @@
       <window_info id="Alibaba Cloud Explorer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912435" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38404256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -815,7 +816,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" weight="0.32949308" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50087565" side_tool="true" weight="0.33510637" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50087565" side_tool="true" weight="0.33482143" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="15" sideWeight="0.49954668" weight="0.32949308" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32765958" />
       <window_info anchor="bottom" id="Problems" order="17" weight="0.32949308" />
@@ -1200,16 +1201,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="600">
           <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1218,10 +1212,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+        <state relative-caret-position="435">
+          <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
           <folding>
             <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
           </folding>

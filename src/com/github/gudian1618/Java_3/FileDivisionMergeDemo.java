@@ -20,10 +20,11 @@ public class FileDivisionMergeDemo {
             
             // 每次读取的字节数
             byte[] bytes = null;
+            // 每次实际读取的长度
             int len = -1;
             // 每一个文件读取的次数
             int count = 0;
-            
+            // 循环次数为生成文件的个数
             for (int i = 0; i < num; i++) {
                 out = new BufferedOutputStream(new FileOutputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\" + (i + 1) + "-temp-" + targetFile.getName())));
                 if (cutSize <= 1024) {
@@ -34,21 +35,21 @@ public class FileDivisionMergeDemo {
                     count = (int) cutSize / 1024;
                 }
                 
-                while (count > 0 && (len=in.read(bytes))!=-1) {
-                    out.write(bytes,0,len);
+                while (count > 0 && (len = in.read(bytes)) != -1) {
+                    out.write(bytes, 0, len);
                     out.flush();
                     count--;
                 }
                 
-                if (cutSize%1024!=0) {
+                if (cutSize % 1024 != 0) {
                     bytes = new byte[(int) cutSize % 1024];
                     len = in.read(bytes);
                     out.write(bytes, 0, len);
                     out.flush();
                     out.close();
                 }
-                in.close();
             }
+            in.close();
             
             
         } catch (FileNotFoundException e) {
@@ -63,9 +64,8 @@ public class FileDivisionMergeDemo {
     
     }
     
-    
     public static void main(String[] args) {
-        File file = new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\a.mp4");
-        division(file, 1024*1024*10);
+        File file = new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\a.avi");
+        division(file, 1024 * 1024 * 1);
     }
 }
