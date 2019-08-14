@@ -133,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
+            <state relative-caret-position="201">
+              <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
               <folding>
                 <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
               </folding>
@@ -224,8 +224,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="737" />
-    <option name="width" value="1190" />
+    <option name="x" value="524" />
+    <option name="width" value="1403" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -287,7 +287,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -432,14 +432,7 @@
       <workItem from="1563719082199" duration="6207000" />
       <workItem from="1563893236570" duration="716000" />
       <workItem from="1565665208023" duration="3729000" />
-      <workItem from="1565740889399" duration="158000" />
-    </task>
-    <task id="LOCAL-00066" summary="新建">
-      <created>1562685907833</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1562685907833</updated>
+      <workItem from="1565740889399" duration="2182000" />
     </task>
     <task id="LOCAL-00067" summary="新建">
       <created>1562686231503</created>
@@ -777,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565667019558</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="新建">
+      <created>1565741113374</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1565741113374</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86899000" />
+    <option name="totallyTimeSpent" value="88923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,10 +793,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="737" y="0" width="1190" height="1047" extended-state="0" />
+    <frame x="524" y="0" width="1403" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19250426" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19250426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -804,7 +804,7 @@
       <window_info id="Alibaba Cloud Explorer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912435" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38404256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1221,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="67" column="96" selection-start-line="67" selection-start-column="96" selection-end-line="67" selection-end-column="96" />
+        <state relative-caret-position="201">
+          <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
           <folding>
             <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
           </folding>

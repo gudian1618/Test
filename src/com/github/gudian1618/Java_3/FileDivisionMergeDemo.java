@@ -40,7 +40,7 @@ public class FileDivisionMergeDemo {
                     out.flush();
                     count--;
                 }
-                
+                // 计算每个文件的小于规定的1024条件时，决定是否要再读一次
                 if (cutSize % 1024 != 0) {
                     bytes = new byte[(int) cutSize % 1024];
                     len = in.read(bytes);
@@ -61,11 +61,22 @@ public class FileDivisionMergeDemo {
     
     private static void merge() {
     
-    
     }
     
     public static void main(String[] args) {
-        File file = new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\a.avi");
-        division(file, 1024 * 1024 * 1);
+    
+//        File file = new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\a.avi");
+//        division(file, 1024 * 1024);
+    
+        try {
+            InputStream in1 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\1-temp-a.avi"));
+            InputStream in2 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\2-temp-a.avi"));
+            InputStream in3 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\3-temp-a.avi"));
+            InputStream in4 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\4-temp-a.avi"));
+            InputStream in5 = new FileInputStream(new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\5-temp-a.avi"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    
     }
 }
