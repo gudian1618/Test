@@ -1,17 +1,38 @@
 package com.github.gudian1618.Java_3;
 
+import java.io.*;
+import java.util.zip.ZipOutputStream;
+
 /**
  * @author gudian1618
  * @version v1.0
  * @date 2019/8/14 14:41
- */
+ *压缩与解压缩
+*/
 public class CompressionAndDecompressionDemo {
     /*
     * 压缩
     * */
-    private void compression() {
-    
+    private void compression(String zipFileName, File targetFile) {
+        System.out.println("正在压缩。。。");
+        try {
+            // 生成压缩文件
+            ZipOutputStream out = new ZipOutputStream(new FileOutputStream(zipFileName));
+            BufferedOutputStream bos = new BufferedOutputStream(out);
+            // 创建压缩方法
+            zip(out, targetFile, bos, targetFile.getName());
+            bos.close();
+            out.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+    
+    private void zip(ZipOutputStream out, File targetFile, BufferedOutputStream bos, String name) {
+    }
+    
     /*
     * 解压
     * */
