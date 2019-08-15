@@ -13,7 +13,7 @@ public class CompressionAndDecompressionDemo {
     /*
     * 压缩
     * */
-    private void compression(String zipFileName, File targetFile) {
+    private static void compression(String zipFileName, File targetFile) {
         System.out.println("正在压缩。。。");
         try {
             // 生成压缩文件
@@ -30,17 +30,18 @@ public class CompressionAndDecompressionDemo {
         }
     }
     
-    private void zip(ZipOutputStream out, File targetFile, BufferedOutputStream bos, String name) {
+    private static void zip(ZipOutputStream out, File targetFile, BufferedOutputStream bos, String name) {
+
     }
     
     /*
     * 解压
     * */
-    private void decompression() {
+    private static void decompression() {
     
     }
     
     public static void main(String[] args) {
-    
+        compression("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\FileDivisionMergeDemo.java",new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\"));
     }
 }
