@@ -61,24 +61,25 @@ public class CompressionAndDecompressionDemo {
      * */
     private static void decompression(String targetFileName, String parent) {
         try {
+            // 构造解压的输入流
             ZipInputStream zIn = new ZipInputStream(new FileInputStream(targetFileName));
             ZipEntry entry = null;
             File file = null;
-            while ((entry = zIn.getNextEntry()) != null && entry.isDirectory()) {
+            while ((entry = zIn.getNextEntry()) != null && !entry.isDirectory()) {
                 file = new File(parent, entry.getName());
                 if (!file.exists()) {
                     // 创建此文件的上级目录
                     new File(file.getParent()).mkdirs();
                 }
                 OutputStream out = new FileOutputStream(file);
-                BufferedOutputStream bos= new BufferedOutputStream(out);
+                BufferedOutputStream bos = new BufferedOutputStream(out);
                 byte[] bytes = new byte[1024];
                 int len = -1;
-                while ((len=zIn.read(bytes))!=-1) {
+                while ((len = zIn.read(bytes)) != -1) {
                     bos.write(bytes, 0, len);
                 }
                 bos.close();
-                System.out.println(file.getAbsolutePath()+"解压成功");
+                System.out.println(file.getAbsolutePath() + "解压成功");
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -89,6 +90,6 @@ public class CompressionAndDecompressionDemo {
     
     public static void main(String[] args) {
 //        compression("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\test.zip", new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\a.avi"));
-        decompression("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\test.zip","F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\");
+        decompression("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\test.zip", "F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\test\\");
     }
 }

@@ -71,11 +71,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="855" />
-    <option name="width" value="1072" />
-    <option name="height" value="1047" />
-  </component>
   <component name="ProjectId" id="1PUrRQbVLlj14pdcmPyxuP8tpFD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -248,14 +243,7 @@
       <workItem from="1565765004023" duration="575000" />
       <workItem from="1565765686753" duration="748000" />
       <workItem from="1565924366284" duration="2330000" />
-      <workItem from="1565939514988" duration="1577000" />
-    </task>
-    <task id="LOCAL-00077" summary="新建">
-      <created>1562860535191</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1562860535191</updated>
+      <workItem from="1565939514988" duration="1971000" />
     </task>
     <task id="LOCAL-00078" summary="新建">
       <created>1562860640612</created>
@@ -593,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565940242495</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="新建">
+      <created>1565941100068</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1565941100068</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TodoView">
