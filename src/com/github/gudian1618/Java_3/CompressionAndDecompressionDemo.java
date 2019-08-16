@@ -1,6 +1,7 @@
 package com.github.gudian1618.Java_3;
 
 import java.io.*;
+import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 /**
@@ -30,8 +31,21 @@ public class CompressionAndDecompressionDemo {
         }
     }
     
-    private static void zip(ZipOutputStream out, File targetFile, BufferedOutputStream bos, String name) {
-
+    private static void zip(ZipOutputStream zOut, File targetFile, BufferedOutputStream bos, String name) {
+        if (targetFile.isDirectory()) {
+            File[] files = targetFile.listFiles();
+            if (files.length==0) {
+                try {
+                    // 处理空目录
+                    zOut.putNextEntry(new ZipEntry(name+"/"));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                for (File f : files) {
+                    zip(zOut, f, name+"/"+f.getName(),bos);
+                }
+            }
+        }
     }
     
     /*
