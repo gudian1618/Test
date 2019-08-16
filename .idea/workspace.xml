@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CodeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CodeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CodeDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,9 +117,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompressionAndDecompressionDemo">
+  <component name="RunManager" selected="Application.CodeDemo">
     <configuration name="BufferStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.BufferStreamDemo" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CodeDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -170,26 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomAccessFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.RandomAccessFileDemo" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeDemo" />
         <item itemvalue="Application.CompressionAndDecompressionDemo" />
         <item itemvalue="Application.FileDivisionMergeDemo" />
         <item itemvalue="Application.ObjectStreamDemo" />
         <item itemvalue="Application.BufferStreamDemo" />
-        <item itemvalue="Application.RandomAccessFileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -243,14 +243,7 @@
       <workItem from="1565765004023" duration="575000" />
       <workItem from="1565765686753" duration="748000" />
       <workItem from="1565924366284" duration="2330000" />
-      <workItem from="1565939514988" duration="3406000" />
-    </task>
-    <task id="LOCAL-00079" summary="新建">
-      <created>1562860678376</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1562860678376</updated>
+      <workItem from="1565939514988" duration="3504000" />
     </task>
     <task id="LOCAL-00080" summary="新建">
       <created>1562861239093</created>
@@ -588,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565941670459</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="新建">
+      <created>1565945475896</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1565945475896</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TodoView">
