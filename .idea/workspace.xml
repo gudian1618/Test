@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" afterDir="false" />
     </list>
-    <ignored path="F:\ProgramData\Test\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,114 +38,6 @@
   <component name="FavoritesManager">
     <favorites_list name="Test" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/BinaryTrreeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="docComment;class#BinaryTrreeDemo#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="docComment;class#BinaryTree#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_1/JDK7Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ByteStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="docComment;class#ByteStreamDemo#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#FileDemo#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#CompressionAndDecompressionDemo#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -165,42 +58,11 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="gudian1618" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Test" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DateDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/MathDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/MD5Demo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/CloneableDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test20.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat1.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/LambdaDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/SystemRuntimeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_2/BinaryTrreeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Date.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/temp/txt.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ByteStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CharStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeSTreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ByteArrayStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/DataStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/RandomAccessFileDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectOutputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FilleDivisionMergeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java" />
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\ProgramData\Test\.idea" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -210,12 +72,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="855" />
     <option name="width" value="1072" />
@@ -223,13 +79,8 @@
   </component>
   <component name="ProjectId" id="1PUrRQbVLlj14pdcmPyxuP8tpFD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -272,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileDivisionMergeDemo">
+  <component name="RunManager" selected="Application.CompressionAndDecompressionDemo">
     <configuration name="BufferStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.BufferStreamDemo" />
       <module name="Test" />
@@ -286,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.DataStreamDemo" />
+    <configuration name="CompressionAndDecompressionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CompressionAndDecompressionDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -340,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompressionAndDecompressionDemo" />
         <item itemvalue="Application.FileDivisionMergeDemo" />
         <item itemvalue="Application.ObjectStreamDemo" />
         <item itemvalue="Application.BufferStreamDemo" />
         <item itemvalue="Application.RandomAccessFileDemo" />
-        <item itemvalue="Application.DataStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -398,13 +249,7 @@
       <workItem from="1565765004023" duration="575000" />
       <workItem from="1565765686753" duration="748000" />
       <workItem from="1565924366284" duration="2330000" />
-    </task>
-    <task id="LOCAL-00075" summary="新建">
-      <created>1562860290064</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1562860290064</updated>
+      <workItem from="1565939514988" duration="490000" />
     </task>
     <task id="LOCAL-00076" summary="新建">
       <created>1562860496921</created>
@@ -742,11 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1565938961646</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="新建">
+      <created>1565939635790</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1565939635791</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,85 +606,19 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="855" y="0" width="1072" height="1047" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2204126" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" weight="0.32910246" />
-      <window_info id="Alibaba Cloud Explorer" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.328125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38404256" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="9" weight="0.32924107" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32924107" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="11" weight="0.32949308" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50087565" side_tool="true" weight="0.33482143" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="15" sideWeight="0.49954668" weight="0.32949308" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32765958" />
-      <window_info anchor="bottom" id="Problems" order="17" weight="0.32949308" />
-      <window_info anchor="bottom" id="Statistic" order="18" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="19" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24932003" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32910246" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32910246" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32924694" />
-      <window_info anchor="right" id="Alibaba Log Console" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2204126" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24932003" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" weight="0.32910246" />
-      <window_info id="Alibaba Cloud Explorer" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3287234" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912435" weight="0.328125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38404256" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="9" weight="0.32924107" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32924107" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="11" weight="0.32949308" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50087565" side_tool="true" weight="0.33482143" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="15" sideWeight="0.49954668" weight="0.32949308" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32765958" />
-      <window_info anchor="bottom" id="Problems" order="17" weight="0.32949308" />
-      <window_info anchor="bottom" id="Statistic" order="18" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="19" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24932003" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32910246" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32910246" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32924694" />
-      <window_info anchor="right" id="Alibaba Log Console" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建" />
@@ -856,388 +639,6 @@
     <SUITE FILE_PATH="coverage/Test$SystemRuntimeDemo.ic" NAME="SystemRuntimeDemo Coverage Results" MODIFIED="1560845222120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.github.gudian1618.Java_2.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DogComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="docComment;class#DogComparator#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/PrintStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/DateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DateDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/System.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Test20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_2/LambdaDemo.class" />
-    <entry file="jar://F:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Comparator.java" />
-    <entry file="file://$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_2/MathDemo.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/I18NDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/MathDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MathDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/MD5Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#MD5Demo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Cat1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="docComment;class#Cat1#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/LambdaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#LambdaDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/CloneableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="docComment;class#CloneableDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_2/SystemRuntimeDemo.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Date.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/SystemRuntimeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/OutputStream.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileOutputStream.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/io/InputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CharStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi3.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/dabin/dsafd.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/temp/txt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi4.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi4" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/dabin/ytruy.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi5.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ChangeStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ByteArrayStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/DataStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/RandomAccessFileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ObjectStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FilleDivisionMergeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#FileDemo2#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PrintStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.github.gudian1618.Java_3">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.github.gudian1618.Java_3</OriginalElement>
-          <nodes>
-            <node x="227.0" y="961.0">com.github.gudian1618.Java_3.temp</node>
-            <node x="346.0" y="403.0">com.github.gudian1618.Java_3.ChangeStreamDemo</node>
-            <node x="0.0" y="562.0">com.github.gudian1618.Java_3.CharStreamDemo</node>
-            <node x="313.0" y="721.0">com.github.gudian1618.Java_3.FileDemo2</node>
-            <node x="0.0" y="961.0">com.github.gudian1618.Java_3.dabin</node>
-            <node x="258.0" y="562.0">com.github.gudian1618.Java_3.DataStreamDemo</node>
-            <node x="582.0" y="721.0">com.github.gudian1618.Java_3.CopyFileDemo</node>
-            <node x="324.0" y="854.0">com.github.gudian1618.Java_3.FileDemo</node>
-            <node x="0.0" y="721.0">com.github.gudian1618.Java_3.ByteArrayStreamDemo</node>
-            <node x="0.0" y="244.0">com.github.gudian1618.Java_3.ObjectStreamDemo</node>
-            <node x="516.0" y="562.0">com.github.gudian1618.Java_3.ByteStreamDemo</node>
-            <node x="557.0" y="854.0">com.github.gudian1618.Java_3.dabin1</node>
-            <node x="626.0" y="403.0">com.github.gudian1618.Java_3.PrintStreamDemo</node>
-            <node x="0.0" y="403.0">com.github.gudian1618.Java_3.FilleDivisionMergeDemo</node>
-            <node x="0.0" y="854.0">com.github.gudian1618.Java_3.RandomAccessFileDemo</node>
-            <node x="280.0" y="0.0">com.github.gudian1618.Java_3.BufferStreamDemo</node>
-            <node x="9.5" y="0.0">com.github.gudian1618.Java_3.Dog</node>
-            <node x="560.0" y="0.0">com.github.gudian1618.Java_3.FileDivisionMergeDemo</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.github.gudian1618.Java_3.ObjectStreamDemo" target="com.github.gudian1618.Java_3.Dog">
-              <point x="58.75" y="-57.0" />
-              <point x="176.25" y="219.0" />
-              <point x="171.5" y="219.0" />
-              <point x="54.0" y="97.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7777777777777778" x="66.0" y="299.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/BufferStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/BinaryTrreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="docComment;class#BinaryTrreeDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_2/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="docComment;class#BinaryTree#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_1/JDK7Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/ByteStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="docComment;class#ByteStreamDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#FileDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/FileDivisionMergeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#FileDivisionMergeDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CopyFileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/gudian1618/Java_3/CompressionAndDecompressionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#CompressionAndDecompressionDemo#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -29,6 +29,7 @@ public class CompressionAndDecompressionDemo {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("压缩完成。。。");
     }
     
     private static void zip(ZipOutputStream zOut, File targetFile, BufferedOutputStream bos, String name) throws IOException {
@@ -50,9 +51,7 @@ public class CompressionAndDecompressionDemo {
             while ((len = bis.read(bytes)) != -1) {
                 bos.write(bytes, 0, len);
             }
-){
-            }
-            
+            bis.close();
         }
     }
     
@@ -64,6 +63,6 @@ public class CompressionAndDecompressionDemo {
     }
     
     public static void main(String[] args) {
-        compression("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\FileDivisionMergeDemo.java", new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\"));
+        compression("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\test.zip", new File("F:\\ProgramData\\Test\\src\\com\\github\\gudian1618\\Java_3\\a.avi"));
     }
 }
