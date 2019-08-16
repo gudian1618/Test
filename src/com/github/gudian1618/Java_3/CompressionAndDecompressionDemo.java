@@ -43,6 +43,16 @@ public class CompressionAndDecompressionDemo {
             }
         } else {
             zOut.putNextEntry(new ZipEntry(name));
+            InputStream in = new FileInputStream(targetFile);
+            BufferedInputStream bis = new BufferedInputStream(in);
+            byte[] bytes = new byte[1024];
+            int len = -1;
+            while ((len = bis.read(bytes)) != -1) {
+                bos.write(bytes, 0, len);
+            }
+){
+            }
+            
         }
     }
     
