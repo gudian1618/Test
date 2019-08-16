@@ -13,10 +13,10 @@ public class CodeDemo {
     public static void main(String[] args) {
         String info = "小河流水哗啦啦";
         try {
-            String newInfo = new String(info.getBytes("gb2312"),"iso8859-1");
+            String newInfo = new String(info.getBytes("utf-8"),"iso8859-1");
             System.out.println(newInfo);
     
-            String newInfo2 = new String(newInfo.getBytes("iso8859-1"),"gb2312");
+            String newInfo2 = new String(newInfo.getBytes("iso8859-1"),"utf-8");
             System.out.println(newInfo2);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
