@@ -13,6 +13,10 @@ import java.util.ArrayList;
  */
 public class GenericDemo {
     
+    public void testNode() {
+        Node<Number> numberNode = new Node<>();
+        Node<Integer> integerNode = new Node<>();
+    }
     
     public void test1() {
         ArrayList<String> list = new ArrayList<>();
