@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/NIODemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/NIODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/NIODemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,20 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodeDemo">
-    <configuration name="BufferStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.BufferStreamDemo" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NIODemo">
     <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CodeDemo" />
       <module name="Test" />
@@ -170,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.NIODemo" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObjectStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.ObjectStreamDemo" />
       <module name="Test" />
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NIODemo" />
         <item itemvalue="Application.CodeDemo" />
         <item itemvalue="Application.CompressionAndDecompressionDemo" />
         <item itemvalue="Application.FileDivisionMergeDemo" />
         <item itemvalue="Application.ObjectStreamDemo" />
-        <item itemvalue="Application.BufferStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -244,14 +244,7 @@
       <workItem from="1565765686753" duration="748000" />
       <workItem from="1565924366284" duration="2330000" />
       <workItem from="1565939514988" duration="3828000" />
-      <workItem from="1566174692323" duration="1881000" />
-    </task>
-    <task id="LOCAL-00082" summary="新建">
-      <created>1562861621010</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1562861621010</updated>
+      <workItem from="1566174692323" duration="2252000" />
     </task>
     <task id="LOCAL-00083" summary="新建">
       <created>1562861649214</created>
@@ -589,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565945578420</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="新建">
+      <created>1566181063729</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1566181063729</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TodoView">

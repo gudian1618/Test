@@ -27,5 +27,20 @@ public class NIODemo {
         System.out.println("limit="+buf.limit());
         System.out.println("capacity="+buf.capacity());
         System.out.println("========================");
+        
+//        缓冲区反转
+        buf.flip();
+        System.out.println("position="+buf.position());
+        System.out.println("limit="+buf.limit());
+        System.out.println("capacity="+buf.capacity());
+        System.out.println("========================");
+//        告知当前位置和限制之间是否有元素
+        if (buf.hasRemaining()) {
+            for (int i = 0; i < buf.remaining(); i++) {
+                byte b = buf.get();
+                System.out.println(b);
+            }
+        
+        }
     }
 }
