@@ -17,8 +17,8 @@ public class GenericDemo {
     public void test1() {
         ArrayList<String> list = new ArrayList<>();
         list.add("gudian1618");
-        list.add(10);
-        list.add(new Object());
+//        list.add(10);
+//        list.add(new Object());
     
         for (int i = 0; i < list.size(); i++) {
 //            如果我们不能确定集合中的元素空类型，那么我们需要在处理元素时
