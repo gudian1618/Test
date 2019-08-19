@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PathFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/总结.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PropertiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PropertiesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_3/lianxi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_3/lianxi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/lianxi.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +90,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tmooc_javase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,6 +108,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.github.gudian1618.Java_3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ProgramData\Test\src\com\github\gudian1618\Java_3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\ProgramData\Test\src\com\github\gudian1618\Java_3" />
@@ -126,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PropertiesDemo">
+  <component name="RunManager" selected="Application.PathFileDemo">
     <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CodeDemo" />
       <module name="Test" />
@@ -140,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompressionAndDecompressionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CompressionAndDecompressionDemo" />
+    <configuration name="NIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.NIODemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.NIODemo" />
+    <configuration name="PathFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.PathFileDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -194,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathFileDemo" />
         <item itemvalue="Application.PropertiesDemo" />
         <item itemvalue="Application.StringStreamDemo" />
         <item itemvalue="Application.NIODemo" />
         <item itemvalue="Application.CodeDemo" />
-        <item itemvalue="Application.CompressionAndDecompressionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -256,14 +262,7 @@
       <workItem from="1566174692323" duration="3024000" />
       <workItem from="1566182371331" duration="623000" />
       <workItem from="1566183030703" duration="568000" />
-      <workItem from="1566183632355" duration="4975000" />
-    </task>
-    <task id="LOCAL-00091" summary="新建">
-      <created>1563038779952</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1563038779952</updated>
+      <workItem from="1566183632355" duration="7736000" />
     </task>
     <task id="LOCAL-00092" summary="新建">
       <created>1563038959013</created>
@@ -601,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566199080866</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="新建">
+      <created>1566199134356</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1566199134356</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TodoView">
