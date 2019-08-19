@@ -11,7 +11,8 @@ import java.io.StringReader;
  * 字符串流：以一个字符串为数据源，来构造一个字符流
  * 作用：在WEB开发中，我们经常要从服务器上获取数据，数据的返回格式通过一个字符串
  * （XML，JSON)，我们需要把这个字符串构造成一个字符流，
- * 然后再用第三方的数据解析器来解析数据
+ * 然后再用第三方的数据解析器来解析数据.
+ * StringWriter
  */
 public class StringStreamDemo {
 
