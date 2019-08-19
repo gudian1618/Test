@@ -49,6 +49,7 @@ public class PropertiesDemo {
     private static void readConfig() {
         Properties p = new Properties();
         try {
+//            通过当前线程的类加载器，来加载指定包下的配置文件
            InputStream inStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("com/github/gudian1618/java_3/config.properties");
 //           InputStream inStream = new FileInputStream("config.properties");
 //            加载文件
