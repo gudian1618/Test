@@ -70,7 +70,7 @@ public class PropertiesDemo {
     
     public static void main(String[] args) {
         
-//        writeConfig("2.0", "mendeersong", "12345678");
+        writeConfig("2.0", "mendeersong", "12345678");
         readConfig();
         System.out.println(PropertiesDemo.version);
         System.out.println(PropertiesDemo.username);

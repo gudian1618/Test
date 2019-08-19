@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PropertiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/PropertiesDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -255,14 +256,7 @@
       <workItem from="1566174692323" duration="3024000" />
       <workItem from="1566182371331" duration="623000" />
       <workItem from="1566183030703" duration="568000" />
-      <workItem from="1566183632355" duration="4932000" />
-    </task>
-    <task id="LOCAL-00090" summary="新建">
-      <created>1563037570128</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1563037570128</updated>
+      <workItem from="1566183632355" duration="4975000" />
     </task>
     <task id="LOCAL-00091" summary="新建">
       <created>1563038779952</created>
@@ -600,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566199025935</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="新建">
+      <created>1566199080866</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1566199080866</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TodoView">
