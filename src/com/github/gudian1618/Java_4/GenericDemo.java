@@ -6,14 +6,18 @@ import java.util.ArrayList;
  * @author gudian1618
  * @version v1.0
  * @date 2019/8/19 16:16
+ * 泛型：即参数化类型，将类型由原来的具体的类型参数化，
+ * 类似于方法中的变量参数，此时类型也定义成参数形式（类型参数），
+ * 然后在使用、调用时传入具体的类型（类型实参）
+ *
  */
 public class GenericDemo {
     
     
     public void test1() {
-        ArrayList<Object> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
         list.add("gudian1618");
-        list.add("10");
+        list.add(10);
         list.add(new Object());
     
         for (int i = 0; i < list.size(); i++) {
