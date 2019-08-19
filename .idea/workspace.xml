@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/StringStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/NIODemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_3/NIODemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +16,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
@@ -71,6 +77,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1PUrRQbVLlj14pdcmPyxuP8tpFD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -94,7 +103,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NIODemo">
+  <component name="RunManager" selected="Application.StringStreamDemo">
     <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CodeDemo" />
       <module name="Test" />
@@ -170,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.ObjectStreamDemo" />
+    <configuration name="StringStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.StringStreamDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -185,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringStreamDemo" />
         <item itemvalue="Application.NIODemo" />
         <item itemvalue="Application.CodeDemo" />
         <item itemvalue="Application.CompressionAndDecompressionDemo" />
         <item itemvalue="Application.FileDivisionMergeDemo" />
-        <item itemvalue="Application.ObjectStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -244,14 +253,10 @@
       <workItem from="1565765686753" duration="748000" />
       <workItem from="1565924366284" duration="2330000" />
       <workItem from="1565939514988" duration="3828000" />
-      <workItem from="1566174692323" duration="2310000" />
-    </task>
-    <task id="LOCAL-00084" summary="新建">
-      <created>1562861806624</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1562861806624</updated>
+      <workItem from="1566174692323" duration="3024000" />
+      <workItem from="1566182371331" duration="623000" />
+      <workItem from="1566183030703" duration="568000" />
+      <workItem from="1566183632355" duration="1069000" />
     </task>
     <task id="LOCAL-00085" summary="新建">
       <created>1563036782787</created>
@@ -589,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566181430463</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="新建">
+      <created>1566181671063</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1566181671064</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TodoView">
@@ -636,6 +648,15 @@
     <SUITE FILE_PATH="coverage/Test$SystemRuntimeDemo.ic" NAME="SystemRuntimeDemo Coverage Results" MODIFIED="1560845222120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.github.gudian1618.Java_2.*</FILTER>
     </SUITE>
+  </component>
+  <component name="dashboard.Configurable">
+    <option name="showingStartFixConfirmationMessage" value="true" />
+    <option name="showingPopUpsOnFixEvent" value="true" />
+    <option name="userName" value="Administrator" />
+    <option name="resultsURL" value="" />
+    <option name="browserPath" value="" />
+    <option name="multicastHost" value="236.1.2.3" />
+    <option name="multicastPort" value="3274" />
   </component>
   <component name="masterDetails">
     <states>
