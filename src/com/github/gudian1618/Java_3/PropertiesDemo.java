@@ -1,8 +1,6 @@
 package com.github.gudian1618.Java_3;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.Properties;
 
 /**
@@ -19,12 +17,38 @@ public class PropertiesDemo {
     private static String username = "";
     private static String password = "";
     
+//    静态代码块，只会执行一次
+    static {
+//        readConfig();
+    }
+    
+    /*
+    * 对属性文件的写入操作
+    * */
+    
+    private static void writeConfig(String version, String username, String password) {
+        Properties p = new Properties();
+        p.put("app.version", version);
+        p.put("db.username", username);
+        p.put("db.password", password);
+        FileOutputStream out = null;
+        try {
+            out = new FileOutputStream("config.properties");
+//            写文件
+            p.store(out, "update condig");
+            out.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
     private static void readConfig() {
         Properties p = new Properties();
-    
-        FileInputStream inStream = null;
+        
         try {
-            inStream = new FileInputStream("config.properties");
+           InputStream inStream = new FileInputStream("config.properties");
             p.load(inStream);
             
 //            从properties中获取数据
@@ -41,7 +65,9 @@ public class PropertiesDemo {
     }
     
     public static void main(String[] args) {
-        readConfig();
+        
+        writeConfig("2.0", "mendeersong", "12345678");
+//        readConfig();
         System.out.println(PropertiesDemo.version);
         System.out.println(PropertiesDemo.username);
         System.out.println(PropertiesDemo.password);
