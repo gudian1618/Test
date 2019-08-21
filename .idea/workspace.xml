@@ -129,22 +129,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo3">
+  <component name="RunManager" selected="Application.ThreadDemo4">
     <configuration name="GenericDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_4.GenericDemo" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PathFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.PathFileDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -195,20 +182,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_4.ThreadDemo4" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.gudian1618.Java_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.PathFileDemo" />
       <item itemvalue="Application.GenericDemo" />
       <item itemvalue="Application.ThreadDemo1" />
       <item itemvalue="Application.ThreadDemo2" />
       <item itemvalue="Application.ThreadDemo3" />
+      <item itemvalue="Application.ThreadDemo4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo4" />
         <item itemvalue="Application.ThreadDemo3" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.ThreadDemo1" />
         <item itemvalue="Application.GenericDemo" />
-        <item itemvalue="Application.PathFileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -269,14 +269,7 @@
       <workItem from="1566183632355" duration="13096000" />
       <workItem from="1566349837897" duration="117000" />
       <workItem from="1566349991730" duration="3382000" />
-      <workItem from="1566353517483" duration="9709000" />
-    </task>
-    <task id="LOCAL-00118" summary="新建">
-      <created>1565753320571</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1565753320571</updated>
+      <workItem from="1566353517483" duration="10653000" />
     </task>
     <task id="LOCAL-00119" summary="新建">
       <created>1565765019340</created>
@@ -614,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566376917196</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="新建">
+      <created>1566377094926</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1566377094926</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TodoView">
