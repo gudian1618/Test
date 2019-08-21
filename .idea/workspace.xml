@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,14 +266,7 @@
       <workItem from="1566183632355" duration="13096000" />
       <workItem from="1566349837897" duration="117000" />
       <workItem from="1566349991730" duration="3382000" />
-      <workItem from="1566353517483" duration="5553000" />
-    </task>
-    <task id="LOCAL-00107" summary="新建">
-      <created>1563783442381</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1563783442381</updated>
+      <workItem from="1566353517483" duration="5639000" />
     </task>
     <task id="LOCAL-00108" summary="新建">
       <created>1563783602804</created>
@@ -613,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566356472816</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="新建">
+      <created>1566370394139</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1566370394139</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TodoView">
