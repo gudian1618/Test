@@ -52,3 +52,19 @@ class MyRunnable2 implements Runnable {
         }
     }
 }
+
+class MyRunnable3 implements Runnable {
+    public boolean flag=true;
+    
+    public MyRunnable3(boolean flag) {
+        this.flag = flag;
+    }
+    
+    @Override
+    public void run() {
+        int i = 0;
+        while (flag){
+            System.out.println(Thread.currentThread().getName());
+        }
+    }
+}
