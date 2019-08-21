@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_4/GenericDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_4/GenericDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_4/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_4/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/GenericDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/Node.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +90,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/github/gudian1618/Java_3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -129,9 +132,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringStreamDemo">
+  <component name="RunManager" selected="Application.GenericDemo">
     <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CodeDemo" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_4.GenericDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -182,22 +198,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.StringStreamDemo" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.CodeDemo" />
+      <item itemvalue="Application.NIODemo" />
+      <item itemvalue="Application.PathFileDemo" />
+      <item itemvalue="Application.PropertiesDemo" />
+      <item itemvalue="Application.GenericDemo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringStreamDemo" />
+        <item itemvalue="Application.GenericDemo" />
         <item itemvalue="Application.PathFileDemo" />
         <item itemvalue="Application.PropertiesDemo" />
         <item itemvalue="Application.NIODemo" />
@@ -259,21 +269,9 @@
       <workItem from="1566174692323" duration="3024000" />
       <workItem from="1566182371331" duration="623000" />
       <workItem from="1566183030703" duration="568000" />
-      <workItem from="1566183632355" duration="12021000" />
-    </task>
-    <task id="LOCAL-00097" summary="新建">
-      <created>1563719936686</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1563719936686</updated>
-    </task>
-    <task id="LOCAL-00098" summary="新建">
-      <created>1563779705522</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1563779705523</updated>
+      <workItem from="1566183632355" duration="13096000" />
+      <workItem from="1566349837897" duration="117000" />
+      <workItem from="1566349991730" duration="1176000" />
     </task>
     <task id="LOCAL-00099" summary="新建">
       <created>1563779911498</created>
@@ -604,7 +602,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566203831774</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="新建">
+      <created>1566346550523</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1566346550523</updated>
+    </task>
+    <task id="LOCAL-00147" summary="新建">
+      <created>1566346563974</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1566346563974</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TodoView">

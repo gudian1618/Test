@@ -6,6 +6,7 @@ package com.github.gudian1618.Java_4;
  * @date 2019/8/19 16:32
  * 泛型类
  * T:参数化类型，在实际使用时才会指定具体的类型
+ * 泛型只作用于编译期，在编译后会被擦除
  */
 public class Node<T> {
     
