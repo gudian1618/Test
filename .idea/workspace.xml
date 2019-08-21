@@ -4,7 +4,6 @@
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/GenericDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/Node.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PathFileDemo">
+  <component name="RunManager" selected="Application.StringStreamDemo">
     <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_3.CodeDemo" />
       <module name="Test" />
@@ -198,9 +197,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringStreamDemo" />
         <item itemvalue="Application.PathFileDemo" />
         <item itemvalue="Application.PropertiesDemo" />
-        <item itemvalue="Application.StringStreamDemo" />
         <item itemvalue="Application.NIODemo" />
         <item itemvalue="Application.CodeDemo" />
       </list>
@@ -260,14 +259,7 @@
       <workItem from="1566174692323" duration="3024000" />
       <workItem from="1566182371331" duration="623000" />
       <workItem from="1566183030703" duration="568000" />
-      <workItem from="1566183632355" duration="9567000" />
-    </task>
-    <task id="LOCAL-00096" summary="新建">
-      <created>1563039693548</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1563039693549</updated>
+      <workItem from="1566183632355" duration="12021000" />
     </task>
     <task id="LOCAL-00097" summary="新建">
       <created>1563719936686</created>
@@ -605,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566203612328</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="新建">
+      <created>1566203831774</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1566203831774</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TodoView">

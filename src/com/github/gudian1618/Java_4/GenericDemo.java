@@ -7,15 +7,19 @@ import java.util.ArrayList;
  * @version v1.0
  * @date 2019/8/19 16:16
  * 泛型：即参数化类型，将类型由原来的具体的类型参数化，
+ * 常用T、E、K、V等形式的参数常用于表示泛型形象，
  * 类似于方法中的变量参数，此时类型也定义成参数形式（类型参数），
  * 然后在使用、调用时传入具体的类型（类型实参）
- *
+ * 泛型只作用于编译期，在编译后，会被擦除
  */
 public class GenericDemo {
     
     public void testNode() {
-        Node<Number> numberNode = new Node<>();
-        Node<Integer> integerNode = new Node<>();
+        Node<String > stringNode = new Node<>("gudian1618");
+        Node<Integer> integerNode = new Node<>(10);
+    
+        System.out.println(stringNode.getData());
+        System.out.println(integerNode.getData());
     }
     
     public void test1() {
