@@ -23,11 +23,12 @@ public class ThreadDemo2 {
                 e.printStackTrace();
             }
             if (i == 20) {
-                try {
-                    t.join(); // 让t线程执行完毕
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+//                try {
+//                    t.join(); // 让t线程执行完毕
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+                t.interrupt(); // 中断线程,只是做了中断标记
             }
         }
     }
@@ -37,11 +38,16 @@ class MyRunnable2 implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 50; i++) {
+            if (Thread.interrupted()) {
+                // 测试中断状态，此方法会把中断状态清除
+                break;
+            }
             System.out.println(Thread.currentThread().getName() + "--" + i);
             try {
                 Thread.sleep(200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
+                Thread.currentThread().interrupt();
             }
         }
     }
