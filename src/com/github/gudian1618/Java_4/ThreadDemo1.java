@@ -6,6 +6,8 @@ package com.github.gudian1618.Java_4;
  * @date 2019/8/21 10:09
  * 由于Intel的I7处理器支持超线程，所以两个线程在单核内是并行超线程执行。
  * 而不支持超线程的处理器，只能通过多核来解决，多余的线程通过并发。
+ * 线程的休眠
+ * 在当前线程的执行中，暂停指定的毫秒数，释放CPU的时间片
  */
 public class ThreadDemo1 {
     
@@ -27,8 +29,13 @@ public class ThreadDemo1 {
 class MyThread extends Thread {
     @Override
     public void run() {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 100; i++) {
             System.out.println(Thread.currentThread().getName() + "-" + i);
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
@@ -38,8 +45,13 @@ class MyThread extends Thread {
  */
 class MyRunnable implements Runnable {
     public void run() {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 100; i++) {
             System.out.println(Thread.currentThread().getName() + "-" + i);
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

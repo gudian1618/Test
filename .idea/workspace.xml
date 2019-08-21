@@ -4,6 +4,7 @@
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/大纲.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/大纲.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,14 +270,7 @@
       <workItem from="1566183632355" duration="13096000" />
       <workItem from="1566349837897" duration="117000" />
       <workItem from="1566349991730" duration="3382000" />
-      <workItem from="1566353517483" duration="1569000" />
-    </task>
-    <task id="LOCAL-00105" summary="新建">
-      <created>1563782549455</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1563782549455</updated>
+      <workItem from="1566353517483" duration="2855000" />
     </task>
     <task id="LOCAL-00106" summary="新建">
       <created>1563782690647</created>
@@ -614,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566354069816</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="新建">
+      <created>1566355098747</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1566355098747</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TodoView">
