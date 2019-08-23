@@ -269,14 +269,7 @@
       <workItem from="1566183632355" duration="13096000" />
       <workItem from="1566349837897" duration="117000" />
       <workItem from="1566349991730" duration="3382000" />
-      <workItem from="1566353517483" duration="13056000" />
-    </task>
-    <task id="LOCAL-00120" summary="新建">
-      <created>1565765383394</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1565765383395</updated>
+      <workItem from="1566353517483" duration="13517000" />
     </task>
     <task id="LOCAL-00121" summary="新建">
       <created>1565828140581</created>
@@ -614,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566378102858</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="新建">
+      <created>1566526870748</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1566526870748</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TodoView">

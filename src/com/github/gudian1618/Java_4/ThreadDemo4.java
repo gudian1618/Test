@@ -22,25 +22,22 @@ public class ThreadDemo4 {
         Thread t1 = new Thread(mr5);
         Thread t2 = new Thread(mr5);
         Thread t3 = new Thread(mr5);
-        Thread t4 = new Thread(mr5);
-        Thread t5 = new Thread(mr5);
         
         t1.start();
         t2.start();
         t3.start();
-        t4.start();
-        t5.start();
+
     }
 }
 
 class MyRunnable5 implements Runnable {
     
-    private int ticket = 50; // 售票
+    private int ticket = 20; // 售票
     private Object obj = new Object();
     
     @Override
     public void run() {
-        for (int i = 0; i < 300; i++) {
+        for (int i = 0; i < 200; i++) {
             if (ticket > 0) {
                 synchronized (obj) {
                     ticket--;
