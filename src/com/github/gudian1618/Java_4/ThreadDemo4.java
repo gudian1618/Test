@@ -36,20 +36,22 @@ public class ThreadDemo4 {
 class MyRunnable5 implements Runnable {
     
     private int ticket = 50; // 售票
+    private Object obj = new Object();
     
     @Override
     public void run() {
         for (int i = 0; i < 300; i++) {
             if (ticket > 0) {
-                ticket--;
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                synchronized (obj) {
+                    ticket--;
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("您购买的票剩余" + ticket + "张");
                 }
-                System.out.println("您购买的票剩余" + ticket + "张");
             }
         }
     }
 }
-
