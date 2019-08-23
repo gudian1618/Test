@@ -78,7 +78,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1PUrRQbVLlj14pdcmPyxuP8tpFD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="OverrideImplement.combined" value="false" />
@@ -87,7 +89,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tmooc_javase" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -269,14 +271,8 @@
       <workItem from="1566183632355" duration="13096000" />
       <workItem from="1566349837897" duration="117000" />
       <workItem from="1566349991730" duration="3382000" />
-      <workItem from="1566353517483" duration="13517000" />
-    </task>
-    <task id="LOCAL-00121" summary="新建">
-      <created>1565828140581</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1565828140581</updated>
+      <workItem from="1566353517483" duration="15311000" />
+      <workItem from="1566530637788" duration="209000" />
     </task>
     <task id="LOCAL-00122" summary="新建">
       <created>1565938575334</created>
@@ -614,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566526870748</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="新建">
+      <created>1566527331386</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1566527331386</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TodoView">

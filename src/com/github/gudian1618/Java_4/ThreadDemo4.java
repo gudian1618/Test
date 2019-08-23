@@ -33,14 +33,14 @@ public class ThreadDemo4 {
 class MyRunnable5 implements Runnable {
     
     private int ticket = 20; // 售票
-    private Object obj = new Object();
+//    private Object obj = new Object(); // 同步锁
     
     @Override
     public void run() {
         for (int i = 0; i < 200; i++) {
             if (ticket > 0) {
-                synchronized (obj) {
-                    ticket--;
+                synchronized (this) { // 同步锁
+                    --ticket;
                     try {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
