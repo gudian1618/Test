@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 同步的实现方法：
  * 1、同步代码块
  * 2、同步方法
- * 3、
+ * 3、使用Lock（更灵活的代码控制）
  *
  */
 public class ThreadDemo4 {
