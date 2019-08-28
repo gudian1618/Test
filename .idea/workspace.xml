@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/大纲.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/大纲.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -274,14 +274,7 @@
       <workItem from="1566353517483" duration="15311000" />
       <workItem from="1566530637788" duration="2772000" />
       <workItem from="1566874652078" duration="41000" />
-      <workItem from="1566963056657" duration="6675000" />
-    </task>
-    <task id="LOCAL-00131" summary="新建">
-      <created>1566181063729</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1566181063729</updated>
+      <workItem from="1566963056657" duration="7436000" />
     </task>
     <task id="LOCAL-00132" summary="新建">
       <created>1566181430463</created>
@@ -619,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566981006928</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="新建">
+      <created>1566981982118</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1566981982118</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TodoView">
