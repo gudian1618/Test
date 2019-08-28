@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +91,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tmooc_javase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,7 +101,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -272,14 +274,9 @@
       <workItem from="1566349837897" duration="117000" />
       <workItem from="1566349991730" duration="3382000" />
       <workItem from="1566353517483" duration="15311000" />
-      <workItem from="1566530637788" duration="209000" />
-    </task>
-    <task id="LOCAL-00122" summary="新建">
-      <created>1565938575334</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1565938575335</updated>
+      <workItem from="1566530637788" duration="2772000" />
+      <workItem from="1566874652078" duration="41000" />
+      <workItem from="1566963056657" duration="381000" />
     </task>
     <task id="LOCAL-00123" summary="新建">
       <created>1565938961646</created>
@@ -617,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566527331386</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="新建">
+      <created>1566530890693</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1566530890694</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TodoView">

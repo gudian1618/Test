@@ -38,16 +38,32 @@ class MyRunnable5 implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 200; i++) {
-            if (ticket > 0) {
-                synchronized (this) { // 同步锁
-                    --ticket;
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    System.out.println("您购买的票剩余" + ticket + "张");
+//            synchronized (this) { // 同步锁
+//                if (ticket >0) {
+//                    --ticket;
+//                    try {
+//                        Thread.sleep(1000);
+//                    } catch (InterruptedException e) {
+//                        e.printStackTrace();
+//                    }
+//                    System.out.println("您购买的票剩余" + ticket + "张");
+//                }
+//            }
+            method();
+        }
+    }
+
+    // 同步方法
+    private synchronized void method() {
+        synchronized (this) { // 同步锁
+            if (ticket >0) {
+                --ticket;
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                System.out.println("您购买的票剩余" + ticket + "张");
             }
         }
     }
