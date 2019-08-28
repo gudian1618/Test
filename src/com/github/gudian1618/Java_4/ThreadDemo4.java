@@ -1,5 +1,7 @@
 package com.github.gudian1618.Java_4;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * @author gudian1618
  * @version v1.0
@@ -37,7 +39,7 @@ class MyRunnable5 implements Runnable {
     
     @Override
     public void run() {
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 100; i++) {
 //            synchronized (this) { // 同步锁
 //                if (ticket >0) {
 //                    --ticket;
@@ -49,7 +51,8 @@ class MyRunnable5 implements Runnable {
 //                    System.out.println("您购买的票剩余" + ticket + "张");
 //                }
 //            }
-            method();
+//            method();
+            method2();
         }
     }
 
@@ -59,7 +62,7 @@ class MyRunnable5 implements Runnable {
             if (ticket >0) {
                 --ticket;
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(300);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -67,4 +70,24 @@ class MyRunnable5 implements Runnable {
             }
         }
     }
+
+    // 互斥锁
+    ReentrantLock lock = new ReentrantLock();
+    // Lock实现同步
+    private void method2() {
+        // 锁
+        lock.lock();
+        if (ticket >0) {
+            --ticket;
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("您购买的票剩余" + ticket + "张");
+        }
+        // 释放锁
+        lock.unlock();
+    }
+
 }
