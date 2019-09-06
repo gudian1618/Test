@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="" />
+    <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_5/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_5/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_5/集合.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_5/集合.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,14 +280,7 @@
       <workItem from="1566874652078" duration="41000" />
       <workItem from="1566963056657" duration="8161000" />
       <workItem from="1567155208013" duration="731000" />
-      <workItem from="1567756217550" duration="3549000" />
-    </task>
-    <task id="LOCAL-00136" summary="新建">
-      <created>1566196672590</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1566196672590</updated>
+      <workItem from="1567756217550" duration="3938000" />
     </task>
     <task id="LOCAL-00137" summary="新建">
       <created>1566197410670</created>
@@ -621,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567759862751</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="新建">
+      <created>1567759903595</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1567759903595</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TodoView">

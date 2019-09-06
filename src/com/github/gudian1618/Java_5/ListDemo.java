@@ -2,6 +2,7 @@ package com.github.gudian1618.Java_5;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 /**
  * @author gudian1618
@@ -42,7 +43,23 @@ public class ListDemo {
 //        }
     }
 
+    private static void vector() {
+        // 实现
+        Vector<String > v = new Vector<>();
+        v.add("苍老师");
+        v.add("张老师");
+        v.add("王老师");
+        v.add("李老师");
+
+        for (int i = 0; i < v.size(); i++) {
+            System.out.println(v.get(i));
+        }
+
+    }
+
     public static void main(String[] args) {
         arrayList();
+        System.out.println("========");
+        vector();
     }
 }
