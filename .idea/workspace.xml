@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_5/集合.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_4/大纲.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Test/com/github/gudian1618/Java_4/大纲.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_4/ThreadDemo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_5/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_5/ListDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +92,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tmooc_CGB1907" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,13 +134,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo5">
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_4.ThreadDemo1" />
+  <component name="RunManager" selected="Application.ListDemo">
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.gudian1618.Java_5.ListDemo" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.gudian1618.Java_4.*" />
+          <option name="PATTERN" value="com.github.gudian1618.Java_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo1" />
       <item itemvalue="Application.ThreadDemo2" />
       <item itemvalue="Application.ThreadDemo3" />
       <item itemvalue="Application.ThreadDemo4" />
       <item itemvalue="Application.ThreadDemo5" />
+      <item itemvalue="Application.ListDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListDemo" />
         <item itemvalue="Application.ThreadDemo5" />
         <item itemvalue="Application.ThreadDemo4" />
         <item itemvalue="Application.ThreadDemo3" />
         <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.ThreadDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -278,21 +281,8 @@
       <workItem from="1566530637788" duration="2772000" />
       <workItem from="1566874652078" duration="41000" />
       <workItem from="1566963056657" duration="8161000" />
-      <workItem from="1567155208013" duration="626000" />
-    </task>
-    <task id="LOCAL-00133" summary="新建">
-      <created>1566181671063</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1566181671064</updated>
-    </task>
-    <task id="LOCAL-00134" summary="新建">
-      <created>1566184708992</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1566184708992</updated>
+      <workItem from="1567155208013" duration="731000" />
+      <workItem from="1567756217550" duration="3301000" />
     </task>
     <task id="LOCAL-00135" summary="新建">
       <created>1566185178748</created>
@@ -623,7 +613,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566984835700</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="新建">
+      <created>1567521003019</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1567521003020</updated>
+    </task>
+    <task id="LOCAL-00183" summary="新建">
+      <created>1567757882490</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1567757882490</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TodoView">
