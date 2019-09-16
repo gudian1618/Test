@@ -1,6 +1,7 @@
 package com.github.gudian1618.Java_5;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
@@ -57,9 +58,23 @@ public class ListDemo {
 
     }
 
+    private static void linkedList() {
+        LinkedList<String> list = new LinkedList<>();
+        list.add("苍老师");
+        list.add("张老师");
+        list.add("王老师");
+        list.add("李老师");
+        String[] array = list.toArray(new String[]{});
+        for (String s: array) {
+            System.out.println(s);
+        }
+    }
+
     public static void main(String[] args) {
         arrayList();
         System.out.println("========");
         vector();
+        System.out.println("========");
+        linkedList();
     }
 }
