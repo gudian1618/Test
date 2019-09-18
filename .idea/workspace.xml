@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/MultiClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/MutilServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/MessageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/EchoServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/EchoServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/MutilServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/MutilServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/网络编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/网络编程.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +107,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -291,14 +294,7 @@
       <workItem from="1568791720065" duration="548000" />
       <workItem from="1568792305014" duration="2014000" />
       <workItem from="1568794369017" duration="1624000" />
-      <workItem from="1568803806900" duration="879000" />
-    </task>
-    <task id="LOCAL-00144" summary="新建">
-      <created>1566203612328</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1566203612328</updated>
+      <workItem from="1568803806900" duration="4152000" />
     </task>
     <task id="LOCAL-00145" summary="新建">
       <created>1566203831774</created>
@@ -636,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568793190900</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="新建">
+      <created>1568804692595</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1568804692595</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TodoView">

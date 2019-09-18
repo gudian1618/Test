@@ -10,8 +10,8 @@ import java.util.concurrent.Executors;
  * @author gudian1618
  * @version v1.0
  * @date 2019/9/18 15:59
- *
- *
+ * 处理多个客户端
+ * 主线程用于监听客户端的连接，每次有链接成功，开启一个线程来处理该客户端的消息
  */
 
 public class MutilServerDemo {
