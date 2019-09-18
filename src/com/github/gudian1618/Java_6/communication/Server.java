@@ -1,6 +1,8 @@
 package com.github.gudian1618.Java_6.communication;
 
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Vector;
@@ -36,10 +38,16 @@ public class Server {
 
 }
 
+/*
+* 客户端处理得线程
+* */
+
 class UserThread implements Runnable {
     private String name; // 客户端的用户名称（唯一）
     private Socket socket;
-    Vector<UserThread> vector;
+    Vector<UserThread> vector; // 客户端处理线程的集合
+    private ObjectInputStream ois;
+    private ObjectOutputStream oos;
     public UserThread(Socket socket, Vector<UserThread> vector) {
         this.socket = socket;
         this.vector = vector;
@@ -47,6 +55,37 @@ class UserThread implements Runnable {
     }
     @Override
     public void run() {
-
+        try {
+            System.out.println("客户端"+socket.getInetAddress().getHostAddress()+"已连接");
+            ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
+            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
+            while (flag) {
+                // 读取消息对象
+                Message msg = (Message) ois.readObject();
+                int type = msg.getType();
+                switch (type) {
+                    case MessageType.TYPE_LOGIN:
+                        name = msg.getFrom();
+                        msg.setInfo("欢迎你：");
+                        oos.writeObject(msg);
+                        break;
+                    case MessageType.TYPE_SEND:
+                        String to = msg.getTo();
+                        UserThread ut;
+                        int size = vector.size();
+                        for (int i = 0; i < size; i++) {
+                            ut = vector.get(i);
+                            if (to.equals(ut.name)&&ut!=this) {
+                                ut.oos.writeObject(msg);
+                            }
+                        }
+                        break;
+                }
+            }
+            ois.close();
+            oos.close();
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

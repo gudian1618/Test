@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b5466f-eff2-47f4-8dc3-296be747a795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/MutilServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/MutilServerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/网络编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/网络编程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/gudian1618/Java_6/communication/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -294,14 +290,7 @@
       <workItem from="1568791720065" duration="548000" />
       <workItem from="1568792305014" duration="2014000" />
       <workItem from="1568794369017" duration="1624000" />
-      <workItem from="1568803806900" duration="4152000" />
-    </task>
-    <task id="LOCAL-00145" summary="新建">
-      <created>1566203831774</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1566203831774</updated>
+      <workItem from="1568803806900" duration="6465000" />
     </task>
     <task id="LOCAL-00146" summary="新建">
       <created>1566346550523</created>
@@ -639,7 +628,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568804692595</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="新建">
+      <created>1568809338791</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1568809338791</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TodoView">
