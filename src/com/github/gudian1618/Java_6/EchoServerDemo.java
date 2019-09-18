@@ -18,6 +18,7 @@ public class EchoServerDemo {
             System.out.println("服务器启动，正在地等待客户端的连接。。。");
             // 等待客户端的链接，造成阻塞，如果有客户端连接成功，立即返回一个Socket对象
             Socket socket = server.accept();
+            System.out.println("客户端连接成功"+server.getInetAddress().getHostAddress());
             BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             // 通过输入流读取网络数据,如果没有数据，那么会阻塞
             String info = br.readLine();
