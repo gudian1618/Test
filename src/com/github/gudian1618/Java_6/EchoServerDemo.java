@@ -19,7 +19,7 @@ public class EchoServerDemo {
             // 等待客户端的链接，造成阻塞，如果有客户端连接成功，立即返回一个Socket对象
             Socket socket = server.accept();
             BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            // 通过输入流读取网络数据
+            // 通过输入流读取网络数据,如果没有数据，那么会阻塞
             String info = br.readLine();
             System.out.println(info);
             PrintStream ps = new PrintStream(new BufferedOutputStream(socket.getOutputStream()));
