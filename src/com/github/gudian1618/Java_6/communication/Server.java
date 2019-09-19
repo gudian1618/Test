@@ -23,7 +23,7 @@ public class Server {
         // 创建服务器端的Socket
 
         try {
-            ServerSocket server = new ServerSocket(8888);
+            ServerSocket server = new ServerSocket(8889);
             System.out.println("服务器已启动，正在等待连接。。。");
             while (true) {
                 Socket socket = server.accept();
@@ -39,24 +39,27 @@ public class Server {
 }
 
 /*
-* 客户端处理得线程
-* */
+ * 客户端处理得线程
+ * */
 
 class UserThread implements Runnable {
+    Vector<UserThread> vector; // 客户端处理线程的集合
     private String name; // 客户端的用户名称（唯一）
     private Socket socket;
-    Vector<UserThread> vector; // 客户端处理线程的集合
     private ObjectInputStream ois;
     private ObjectOutputStream oos;
+    private boolean flag = true;
+
     public UserThread(Socket socket, Vector<UserThread> vector) {
         this.socket = socket;
         this.vector = vector;
         vector.add(this);
     }
+
     @Override
     public void run() {
         try {
-            System.out.println("客户端"+socket.getInetAddress().getHostAddress()+"已连接");
+            System.out.println("客户端" + socket.getInetAddress().getHostAddress() + "已连接");
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
             while (flag) {
@@ -75,7 +78,7 @@ class UserThread implements Runnable {
                         int size = vector.size();
                         for (int i = 0; i < size; i++) {
                             ut = vector.get(i);
-                            if (to.equals(ut.name)&&ut!=this) {
+                            if (to.equals(ut.name) && ut != this) {
                                 ut.oos.writeObject(msg);
                             }
                         }

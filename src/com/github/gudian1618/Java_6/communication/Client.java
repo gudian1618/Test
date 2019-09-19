@@ -21,17 +21,17 @@ public class Client {
         ExecutorService es = Executors.newSingleThreadExecutor();
 
         try {
-            Socket socket = new Socket("localhost",8888);
+            Socket socket = new Socket("localhost", 8889);
             System.out.println("服务器连接成功");
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
             // 向服务器发送登录信息
             System.out.println("输入名称：");
             String name = input.nextLine();
-            Message msg = new Message(name,null,MessageType.TYPE_LOGIN,null);
+            Message msg = new Message(name, null, MessageType.TYPE_LOGIN, null);
             oos.writeObject(msg);
             msg = (Message) ois.readObject();
-            System.out.println(msg.getInfo()+msg.getFrom());
+            System.out.println(msg.getInfo() + msg.getFrom());
             // 启动读取消息的线程
             es.execute(new ReadInfoThread(ois));
 
@@ -69,12 +69,12 @@ class ReadInfoThread implements Runnable {
                 Message message = (Message) in.readObject();
                 System.out.println("[" + message.getFrom() + "]对我说：" + message.getInfo());
             }
-            if (in!=null) {
+            if (in != null) {
                 in.close();
             }
 
         } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
