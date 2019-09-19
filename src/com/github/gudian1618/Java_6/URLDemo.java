@@ -17,6 +17,7 @@ import java.net.URLConnection;
 public class URLDemo {
 
     public static void main(String[] args) {
+        // URL 统一资源定位符
         try {
             URL url = new URL("F:/Python%203.7.4%20帮助/python3.7x/docs.python.org/zh-cn/3/index.html");
             URLConnection conn = (HttpURLConnection) url.openConnection();
